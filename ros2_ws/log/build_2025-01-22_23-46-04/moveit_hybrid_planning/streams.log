@@ -1,0 +1,198 @@
+[0.042s] Invoking command in '/ros2_ws/build/moveit_hybrid_planning': AMENT_PREFIX_PATH=/ros2_ws/install/moveit_ros_planning_interface:/ros2_ws/install/moveit_ros_move_group:/ros2_ws/install/moveit_ros_warehouse:/ros2_ws/install/moveit_planners_ompl:/ros2_ws/install/moveit_kinematics:/ros2_ws/install/moveit_ros_planning:/ros2_ws/install/moveit_simple_controller_manager:/ros2_ws/install/moveit_ros_occupancy_map_monitor:/ros2_ws/install/moveit_core:/ros2_ws/install/moveit_resources_panda_moveit_config:/ros2_ws/install/moveit_resources_fanuc_moveit_config:/ros2_ws/install/moveit_configs_utils:/ros2_ws/install/srdfdom:/ros2_ws/install/moveit_resources_pr2_description:/ros2_ws/install/moveit_resources_panda_description:/ros2_ws/install/moveit_resources_fanuc_description:/ros2_ws/install/moveit_common:/ros2_ws/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/moveit_ros_planning_interface:/ros2_ws/install/moveit_ros_move_group:/ros2_ws/install/moveit_ros_warehouse:/ros2_ws/install/moveit_planners_ompl:/ros2_ws/install/moveit_kinematics:/ros2_ws/install/moveit_ros_planning:/ros2_ws/install/moveit_simple_controller_manager:/ros2_ws/install/moveit_ros_occupancy_map_monitor:/ros2_ws/install/moveit_core:/ros2_ws/install/moveit_resources_panda_moveit_config:/ros2_ws/install/moveit_resources_fanuc_moveit_config:/ros2_ws/install/srdfdom:/ros2_ws/install/moveit_resources_pr2_description:/ros2_ws/install/moveit_resources_panda_description:/ros2_ws/install/moveit_resources_fanuc_description:/ros2_ws/install/moveit_common:/ros2_ws/install/ur:/ros2_ws/install/ur_calibration:/ros2_ws/install/ur_robot_driver:/ros2_ws/install/ur_bringup:/ros2_ws/install/ur_controllers:/ros2_ws/install/ur_msgs:/ros2_ws/install/ur_moveit_config:/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/moveit_ros_planning_interface/lib:/ros2_ws/install/moveit_ros_move_group/lib:/ros2_ws/install/moveit_ros_warehouse/lib:/ros2_ws/install/moveit_planners_ompl/lib:/ros2_ws/install/moveit_kinematics/lib:/ros2_ws/install/moveit_ros_planning/lib:/ros2_ws/install/moveit_simple_controller_manager/lib:/ros2_ws/install/moveit_ros_occupancy_map_monitor/lib:/ros2_ws/install/moveit_core/lib:/ros2_ws/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/ros2_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/ros2_ws/install/moveit_configs_utils/lib/python3.10/site-packages:/ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages:/ros2_ws/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /ros2_ws/src/moveit2/moveit_ros/hybrid_planning -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/moveit_hybrid_planning
+[0.101s] -- The C compiler identification is GNU 11.4.0
+[0.158s] -- The CXX compiler identification is GNU 11.4.0
+[0.164s] -- Detecting C compiler ABI info
+[0.231s] -- Detecting C compiler ABI info - done
+[0.238s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.238s] -- Detecting C compile features
+[0.239s] -- Detecting C compile features - done
+[0.242s] -- Detecting CXX compiler ABI info
+[0.322s] -- Detecting CXX compiler ABI info - done
+[0.329s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.330s] -- Detecting CXX compile features
+[0.330s] -- Detecting CXX compile features - done
+[0.333s] -- Found moveit_common: 2.5.7 (/ros2_ws/install/moveit_common/share/moveit_common/cmake)
+[0.338s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.493s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.682s] [0mmoveit_hybrid_planning: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[0.683s] -- Found moveit_core: 2.5.7 (/ros2_ws/install/moveit_core/share/moveit_core/cmake)
+[0.947s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.033s] -- Found parameter_traits: 0.3.9 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.109s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.120s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.136s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.156s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.183s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.263s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.270s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.384s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.413s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.469s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.488s] -- Found Threads: TRUE  
+[1.570s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.576s] -- Found rclcpp_lifecycle: 16.0.11 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.612s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[1.748s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.838s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.182s] -- Found moveit_ros_planning: 2.5.7 (/ros2_ws/install/moveit_ros_planning/share/moveit_ros_planning/cmake)
+[2.188s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[2.214s] -- Found moveit_ros_planning_interface: 2.5.7 (/ros2_ws/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake)
+[2.219s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[2.234s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[2.261s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[2.445s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.450s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[2.455s] -- Found ros_testing: 0.4.0 (/opt/ros/humble/share/ros_testing/cmake)
+[2.459s] -- Found launch_testing_ament_cmake: 1.0.7 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[2.464s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.485s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.490s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.490s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.490s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.490s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.512s] -- Found PythonExtra: .so  
+[2.516s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[2.560s] -- Configuring done
+[2.817s] -- Generating done
+[2.870s] -- Build files have been written to: /ros2_ws/build/moveit_hybrid_planning
+[2.890s] Invoked command in '/ros2_ws/build/moveit_hybrid_planning' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/moveit_ros_planning_interface:/ros2_ws/install/moveit_ros_move_group:/ros2_ws/install/moveit_ros_warehouse:/ros2_ws/install/moveit_planners_ompl:/ros2_ws/install/moveit_kinematics:/ros2_ws/install/moveit_ros_planning:/ros2_ws/install/moveit_simple_controller_manager:/ros2_ws/install/moveit_ros_occupancy_map_monitor:/ros2_ws/install/moveit_core:/ros2_ws/install/moveit_resources_panda_moveit_config:/ros2_ws/install/moveit_resources_fanuc_moveit_config:/ros2_ws/install/moveit_configs_utils:/ros2_ws/install/srdfdom:/ros2_ws/install/moveit_resources_pr2_description:/ros2_ws/install/moveit_resources_panda_description:/ros2_ws/install/moveit_resources_fanuc_description:/ros2_ws/install/moveit_common:/ros2_ws/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/moveit_ros_planning_interface:/ros2_ws/install/moveit_ros_move_group:/ros2_ws/install/moveit_ros_warehouse:/ros2_ws/install/moveit_planners_ompl:/ros2_ws/install/moveit_kinematics:/ros2_ws/install/moveit_ros_planning:/ros2_ws/install/moveit_simple_controller_manager:/ros2_ws/install/moveit_ros_occupancy_map_monitor:/ros2_ws/install/moveit_core:/ros2_ws/install/moveit_resources_panda_moveit_config:/ros2_ws/install/moveit_resources_fanuc_moveit_config:/ros2_ws/install/srdfdom:/ros2_ws/install/moveit_resources_pr2_description:/ros2_ws/install/moveit_resources_panda_description:/ros2_ws/install/moveit_resources_fanuc_description:/ros2_ws/install/moveit_common:/ros2_ws/install/ur:/ros2_ws/install/ur_calibration:/ros2_ws/install/ur_robot_driver:/ros2_ws/install/ur_bringup:/ros2_ws/install/ur_controllers:/ros2_ws/install/ur_msgs:/ros2_ws/install/ur_moveit_config:/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/moveit_ros_planning_interface/lib:/ros2_ws/install/moveit_ros_move_group/lib:/ros2_ws/install/moveit_ros_warehouse/lib:/ros2_ws/install/moveit_planners_ompl/lib:/ros2_ws/install/moveit_kinematics/lib:/ros2_ws/install/moveit_ros_planning/lib:/ros2_ws/install/moveit_simple_controller_manager/lib:/ros2_ws/install/moveit_ros_occupancy_map_monitor/lib:/ros2_ws/install/moveit_core/lib:/ros2_ws/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/ros2_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/ros2_ws/install/moveit_configs_utils/lib/python3.10/site-packages:/ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages:/ros2_ws/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /ros2_ws/src/moveit2/moveit_ros/hybrid_planning -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/moveit_hybrid_planning
+[2.891s] Invoking command in '/ros2_ws/build/moveit_hybrid_planning': AMENT_PREFIX_PATH=/ros2_ws/install/moveit_ros_planning_interface:/ros2_ws/install/moveit_ros_move_group:/ros2_ws/install/moveit_ros_warehouse:/ros2_ws/install/moveit_planners_ompl:/ros2_ws/install/moveit_kinematics:/ros2_ws/install/moveit_ros_planning:/ros2_ws/install/moveit_simple_controller_manager:/ros2_ws/install/moveit_ros_occupancy_map_monitor:/ros2_ws/install/moveit_core:/ros2_ws/install/moveit_resources_panda_moveit_config:/ros2_ws/install/moveit_resources_fanuc_moveit_config:/ros2_ws/install/moveit_configs_utils:/ros2_ws/install/srdfdom:/ros2_ws/install/moveit_resources_pr2_description:/ros2_ws/install/moveit_resources_panda_description:/ros2_ws/install/moveit_resources_fanuc_description:/ros2_ws/install/moveit_common:/ros2_ws/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/moveit_ros_planning_interface:/ros2_ws/install/moveit_ros_move_group:/ros2_ws/install/moveit_ros_warehouse:/ros2_ws/install/moveit_planners_ompl:/ros2_ws/install/moveit_kinematics:/ros2_ws/install/moveit_ros_planning:/ros2_ws/install/moveit_simple_controller_manager:/ros2_ws/install/moveit_ros_occupancy_map_monitor:/ros2_ws/install/moveit_core:/ros2_ws/install/moveit_resources_panda_moveit_config:/ros2_ws/install/moveit_resources_fanuc_moveit_config:/ros2_ws/install/srdfdom:/ros2_ws/install/moveit_resources_pr2_description:/ros2_ws/install/moveit_resources_panda_description:/ros2_ws/install/moveit_resources_fanuc_description:/ros2_ws/install/moveit_common:/ros2_ws/install/ur:/ros2_ws/install/ur_calibration:/ros2_ws/install/ur_robot_driver:/ros2_ws/install/ur_bringup:/ros2_ws/install/ur_controllers:/ros2_ws/install/ur_msgs:/ros2_ws/install/ur_moveit_config:/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/moveit_ros_planning_interface/lib:/ros2_ws/install/moveit_ros_move_group/lib:/ros2_ws/install/moveit_ros_warehouse/lib:/ros2_ws/install/moveit_planners_ompl/lib:/ros2_ws/install/moveit_kinematics/lib:/ros2_ws/install/moveit_ros_planning/lib:/ros2_ws/install/moveit_simple_controller_manager/lib:/ros2_ws/install/moveit_ros_occupancy_map_monitor/lib:/ros2_ws/install/moveit_core/lib:/ros2_ws/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/ros2_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/ros2_ws/install/moveit_configs_utils/lib/python3.10/site-packages:/ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages:/ros2_ws/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /ros2_ws/build/moveit_hybrid_planning
+[2.949s] [  5%] [32mBuilding CXX object hybrid_planning_manager/hybrid_planning_manager_component/CMakeFiles/moveit_hybrid_planning_manager.dir/src/hybrid_planning_manager.cpp.o[0m
+[23.625s] [ 10%] [32m[1mLinking CXX shared library libmoveit_hybrid_planning_manager.so[0m
+[24.057s] [ 10%] Built target moveit_hybrid_planning_manager
+[24.080s] [ 15%] [32mBuilding CXX object local_planner/local_planner_component/CMakeFiles/moveit_local_planner_component.dir/src/local_planner_component.cpp.o[0m
+[48.262s] [ 20%] [32m[1mLinking CXX shared library libmoveit_local_planner_component.so[0m
+[48.611s] [ 20%] Built target moveit_local_planner_component
+[48.634s] [ 25%] [32mBuilding CXX object local_planner/trajectory_operator_plugins/CMakeFiles/simple_sampler_plugin.dir/src/simple_sampler.cpp.o[0m
+[54.624s] [ 30%] [32m[1mLinking CXX shared library libsimple_sampler_plugin.so[0m
+[54.883s] [ 30%] Built target simple_sampler_plugin
+[54.906s] [ 35%] [32mBuilding CXX object local_planner/local_constraint_solver_plugins/CMakeFiles/forward_trajectory_plugin.dir/src/forward_trajectory.cpp.o[0m
+[64.157s] [ 40%] [32m[1mLinking CXX shared library libforward_trajectory_plugin.so[0m
+[64.422s] [ 40%] Built target forward_trajectory_plugin
+[64.446s] [ 45%] [32mBuilding CXX object hybrid_planning_manager/planner_logic_plugins/CMakeFiles/single_plan_execution_plugin.dir/src/single_plan_execution.cpp.o[0m
+[68.836s] [ 50%] [32m[1mLinking CXX shared library libsingle_plan_execution_plugin.so[0m
+[69.066s] [ 50%] Built target single_plan_execution_plugin
+[69.089s] [ 55%] [32mBuilding CXX object global_planner/global_planner_plugins/CMakeFiles/motion_planning_pipeline_plugin.dir/src/moveit_planning_pipeline.cpp.o[0m
+[80.957s] [ 60%] [32m[1mLinking CXX shared library libmotion_planning_pipeline_plugin.so[0m
+[81.199s] [ 60%] Built target motion_planning_pipeline_plugin
+[81.222s] [ 65%] [32mBuilding CXX object hybrid_planning_manager/planner_logic_plugins/CMakeFiles/replan_invalidated_trajectory_plugin.dir/src/replan_invalidated_trajectory.cpp.o[0m
+[85.859s] [ 70%] [32m[1mLinking CXX shared library libreplan_invalidated_trajectory_plugin.so[0m
+[86.090s] [ 70%] Built target replan_invalidated_trajectory_plugin
+[86.113s] [ 75%] [32mBuilding CXX object global_planner/global_planner_component/CMakeFiles/moveit_global_planner_component.dir/src/global_planner_component.cpp.o[0m
+[103.153s] [ 80%] [32m[1mLinking CXX shared library libmoveit_global_planner_component.so[0m
+[103.527s] [ 80%] Built target moveit_global_planner_component
+[103.550s] [ 85%] [32mBuilding CXX object test/CMakeFiles/cancel_action.dir/cancel_action.cpp.o[0m
+[107.245s] [ 90%] [32m[1mLinking CXX executable cancel_action[0m
+[107.526s] [ 90%] Built target cancel_action
+[107.549s] [ 95%] [32mBuilding CXX object test/CMakeFiles/hybrid_planning_demo_node.dir/hybrid_planning_demo_node.cpp.o[0m
+[126.212s] [100%] [32m[1mLinking CXX executable hybrid_planning_demo_node[0m
+[126.661s] [100%] Built target hybrid_planning_demo_node
+[126.673s] Invoked command in '/ros2_ws/build/moveit_hybrid_planning' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/moveit_ros_planning_interface:/ros2_ws/install/moveit_ros_move_group:/ros2_ws/install/moveit_ros_warehouse:/ros2_ws/install/moveit_planners_ompl:/ros2_ws/install/moveit_kinematics:/ros2_ws/install/moveit_ros_planning:/ros2_ws/install/moveit_simple_controller_manager:/ros2_ws/install/moveit_ros_occupancy_map_monitor:/ros2_ws/install/moveit_core:/ros2_ws/install/moveit_resources_panda_moveit_config:/ros2_ws/install/moveit_resources_fanuc_moveit_config:/ros2_ws/install/moveit_configs_utils:/ros2_ws/install/srdfdom:/ros2_ws/install/moveit_resources_pr2_description:/ros2_ws/install/moveit_resources_panda_description:/ros2_ws/install/moveit_resources_fanuc_description:/ros2_ws/install/moveit_common:/ros2_ws/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/moveit_ros_planning_interface:/ros2_ws/install/moveit_ros_move_group:/ros2_ws/install/moveit_ros_warehouse:/ros2_ws/install/moveit_planners_ompl:/ros2_ws/install/moveit_kinematics:/ros2_ws/install/moveit_ros_planning:/ros2_ws/install/moveit_simple_controller_manager:/ros2_ws/install/moveit_ros_occupancy_map_monitor:/ros2_ws/install/moveit_core:/ros2_ws/install/moveit_resources_panda_moveit_config:/ros2_ws/install/moveit_resources_fanuc_moveit_config:/ros2_ws/install/srdfdom:/ros2_ws/install/moveit_resources_pr2_description:/ros2_ws/install/moveit_resources_panda_description:/ros2_ws/install/moveit_resources_fanuc_description:/ros2_ws/install/moveit_common:/ros2_ws/install/ur:/ros2_ws/install/ur_calibration:/ros2_ws/install/ur_robot_driver:/ros2_ws/install/ur_bringup:/ros2_ws/install/ur_controllers:/ros2_ws/install/ur_msgs:/ros2_ws/install/ur_moveit_config:/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/moveit_ros_planning_interface/lib:/ros2_ws/install/moveit_ros_move_group/lib:/ros2_ws/install/moveit_ros_warehouse/lib:/ros2_ws/install/moveit_planners_ompl/lib:/ros2_ws/install/moveit_kinematics/lib:/ros2_ws/install/moveit_ros_planning/lib:/ros2_ws/install/moveit_simple_controller_manager/lib:/ros2_ws/install/moveit_ros_occupancy_map_monitor/lib:/ros2_ws/install/moveit_core/lib:/ros2_ws/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/ros2_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/ros2_ws/install/moveit_configs_utils/lib/python3.10/site-packages:/ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages:/ros2_ws/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /ros2_ws/build/moveit_hybrid_planning
+[126.674s] Invoking command in '/ros2_ws/build/moveit_hybrid_planning': AMENT_PREFIX_PATH=/ros2_ws/install/moveit_ros_planning_interface:/ros2_ws/install/moveit_ros_move_group:/ros2_ws/install/moveit_ros_warehouse:/ros2_ws/install/moveit_planners_ompl:/ros2_ws/install/moveit_kinematics:/ros2_ws/install/moveit_ros_planning:/ros2_ws/install/moveit_simple_controller_manager:/ros2_ws/install/moveit_ros_occupancy_map_monitor:/ros2_ws/install/moveit_core:/ros2_ws/install/moveit_resources_panda_moveit_config:/ros2_ws/install/moveit_resources_fanuc_moveit_config:/ros2_ws/install/moveit_configs_utils:/ros2_ws/install/srdfdom:/ros2_ws/install/moveit_resources_pr2_description:/ros2_ws/install/moveit_resources_panda_description:/ros2_ws/install/moveit_resources_fanuc_description:/ros2_ws/install/moveit_common:/ros2_ws/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/moveit_ros_planning_interface:/ros2_ws/install/moveit_ros_move_group:/ros2_ws/install/moveit_ros_warehouse:/ros2_ws/install/moveit_planners_ompl:/ros2_ws/install/moveit_kinematics:/ros2_ws/install/moveit_ros_planning:/ros2_ws/install/moveit_simple_controller_manager:/ros2_ws/install/moveit_ros_occupancy_map_monitor:/ros2_ws/install/moveit_core:/ros2_ws/install/moveit_resources_panda_moveit_config:/ros2_ws/install/moveit_resources_fanuc_moveit_config:/ros2_ws/install/srdfdom:/ros2_ws/install/moveit_resources_pr2_description:/ros2_ws/install/moveit_resources_panda_description:/ros2_ws/install/moveit_resources_fanuc_description:/ros2_ws/install/moveit_common:/ros2_ws/install/ur:/ros2_ws/install/ur_calibration:/ros2_ws/install/ur_robot_driver:/ros2_ws/install/ur_bringup:/ros2_ws/install/ur_controllers:/ros2_ws/install/ur_msgs:/ros2_ws/install/ur_moveit_config:/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/moveit_ros_planning_interface/lib:/ros2_ws/install/moveit_ros_move_group/lib:/ros2_ws/install/moveit_ros_warehouse/lib:/ros2_ws/install/moveit_planners_ompl/lib:/ros2_ws/install/moveit_kinematics/lib:/ros2_ws/install/moveit_ros_planning/lib:/ros2_ws/install/moveit_simple_controller_manager/lib:/ros2_ws/install/moveit_ros_occupancy_map_monitor/lib:/ros2_ws/install/moveit_core/lib:/ros2_ws/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/ros2_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/ros2_ws/install/moveit_configs_utils/lib/python3.10/site-packages:/ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages:/ros2_ws/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /ros2_ws/build/moveit_hybrid_planning
+[126.682s] -- Install configuration: "Release"
+[126.683s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/lib/libmoveit_global_planner_component.so.2.5.7
+[126.684s] -- Set runtime path of "/ros2_ws/install/moveit_hybrid_planning/lib/libmoveit_global_planner_component.so.2.5.7" to ""
+[126.685s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/lib/libmoveit_global_planner_component.so
+[126.685s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/lib/libmoveit_hybrid_planning_manager.so.2.5.7
+[126.687s] -- Set runtime path of "/ros2_ws/install/moveit_hybrid_planning/lib/libmoveit_hybrid_planning_manager.so.2.5.7" to ""
+[126.687s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/lib/libmoveit_hybrid_planning_manager.so
+[126.687s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/lib/libmoveit_local_planner_component.so.2.5.7
+[126.689s] -- Set runtime path of "/ros2_ws/install/moveit_hybrid_planning/lib/libmoveit_local_planner_component.so.2.5.7" to ""
+[126.689s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/lib/libmoveit_local_planner_component.so
+[126.689s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/lib/libforward_trajectory_plugin.so.2.5.7
+[126.689s] -- Set runtime path of "/ros2_ws/install/moveit_hybrid_planning/lib/libforward_trajectory_plugin.so.2.5.7" to ""
+[126.690s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/lib/libforward_trajectory_plugin.so
+[126.690s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/lib/libmotion_planning_pipeline_plugin.so.2.5.7
+[126.690s] -- Set runtime path of "/ros2_ws/install/moveit_hybrid_planning/lib/libmotion_planning_pipeline_plugin.so.2.5.7" to ""
+[126.690s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/lib/libmotion_planning_pipeline_plugin.so
+[126.690s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/lib/libreplan_invalidated_trajectory_plugin.so.2.5.7
+[126.691s] -- Set runtime path of "/ros2_ws/install/moveit_hybrid_planning/lib/libreplan_invalidated_trajectory_plugin.so.2.5.7" to ""
+[126.691s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/lib/libreplan_invalidated_trajectory_plugin.so
+[126.691s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/lib/libsimple_sampler_plugin.so.2.5.7
+[126.692s] -- Set runtime path of "/ros2_ws/install/moveit_hybrid_planning/lib/libsimple_sampler_plugin.so.2.5.7" to ""
+[126.692s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/lib/libsimple_sampler_plugin.so
+[126.692s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/lib/libsingle_plan_execution_plugin.so.2.5.7
+[126.692s] -- Set runtime path of "/ros2_ws/install/moveit_hybrid_planning/lib/libsingle_plan_execution_plugin.so.2.5.7" to ""
+[126.693s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/lib/libsingle_plan_execution_plugin.so
+[126.693s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/lib/moveit_hybrid_planning/cancel_action
+[126.693s] -- Set runtime path of "/ros2_ws/install/moveit_hybrid_planning/lib/moveit_hybrid_planning/cancel_action" to ""
+[126.694s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/lib/moveit_hybrid_planning/hybrid_planning_demo_node
+[126.695s] -- Set runtime path of "/ros2_ws/install/moveit_hybrid_planning/lib/moveit_hybrid_planning/hybrid_planning_demo_node" to ""
+[126.695s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/include
+[126.695s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/include/moveit
+[126.695s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/include/moveit/global_planner
+[126.695s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/include/moveit/global_planner/global_planner_interface.h
+[126.695s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/include/moveit/global_planner/global_planner_component.h
+[126.696s] -- Up-to-date: /ros2_ws/install/moveit_hybrid_planning/include
+[126.696s] -- Up-to-date: /ros2_ws/install/moveit_hybrid_planning/include/moveit
+[126.696s] -- Up-to-date: /ros2_ws/install/moveit_hybrid_planning/include/moveit/global_planner
+[126.696s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/include/moveit/global_planner/moveit_planning_pipeline.h
+[126.696s] -- Up-to-date: /ros2_ws/install/moveit_hybrid_planning/include
+[126.696s] -- Up-to-date: /ros2_ws/install/moveit_hybrid_planning/include/moveit
+[126.696s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/include/moveit/hybrid_planning_manager
+[126.696s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/include/moveit/hybrid_planning_manager/moveit_error_code_interface.h
+[126.696s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/include/moveit/hybrid_planning_manager/hybrid_planning_events.h
+[126.696s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/include/moveit/hybrid_planning_manager/hybrid_planning_manager.h
+[126.696s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/include/moveit/hybrid_planning_manager/planner_logic_interface.h
+[126.696s] -- Up-to-date: /ros2_ws/install/moveit_hybrid_planning/include
+[126.696s] -- Up-to-date: /ros2_ws/install/moveit_hybrid_planning/include/moveit
+[126.696s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/include/moveit/planner_logic_plugins
+[126.697s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/include/moveit/planner_logic_plugins/single_plan_execution.h
+[126.697s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/include/moveit/planner_logic_plugins/replan_invalidated_trajectory.h
+[126.697s] -- Up-to-date: /ros2_ws/install/moveit_hybrid_planning/include
+[126.697s] -- Up-to-date: /ros2_ws/install/moveit_hybrid_planning/include/moveit
+[126.697s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/include/moveit/local_planner
+[126.697s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/include/moveit/local_planner/local_constraint_solver_interface.h
+[126.697s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/include/moveit/local_planner/trajectory_operator_interface.h
+[126.697s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/include/moveit/local_planner/local_planner_component.h
+[126.697s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/include/moveit/local_planner/feedback_types.h
+[126.697s] -- Up-to-date: /ros2_ws/install/moveit_hybrid_planning/include
+[126.698s] -- Up-to-date: /ros2_ws/install/moveit_hybrid_planning/include/moveit
+[126.698s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/include/moveit/trajectory_operator_plugins
+[126.698s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/include/moveit/trajectory_operator_plugins/simple_sampler.h
+[126.698s] -- Up-to-date: /ros2_ws/install/moveit_hybrid_planning/include
+[126.698s] -- Up-to-date: /ros2_ws/install/moveit_hybrid_planning/include/moveit
+[126.698s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/include/moveit/local_constraint_solver_plugins
+[126.698s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/include/moveit/local_constraint_solver_plugins/forward_trajectory.h
+[126.698s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/share/moveit_hybrid_planning/launch
+[126.698s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/share/moveit_hybrid_planning/launch/hybrid_planning_common.py
+[126.698s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/share/moveit_hybrid_planning/launch/hybrid_planning_demo.launch.py
+[126.698s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/share/moveit_hybrid_planning/launch/test_basic_integration.test.py
+[126.699s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/share/moveit_hybrid_planning/config
+[126.699s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/share/moveit_hybrid_planning/config/common_hybrid_planning_params.yaml
+[126.699s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/share/moveit_hybrid_planning/config/global_planner.yaml
+[126.699s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/share/moveit_hybrid_planning/config/demo_controller.yaml
+[126.699s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/share/moveit_hybrid_planning/config/local_planner.yaml
+[126.699s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/share/moveit_hybrid_planning/config/hybrid_planning_demo.rviz
+[126.699s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/share/moveit_hybrid_planning/config/hybrid_planning_manager.yaml
+[126.700s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/share/moveit_hybrid_planning/single_plan_execution_plugin.xml
+[126.700s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/share/moveit_hybrid_planning/moveit_planning_pipeline_plugin.xml
+[126.700s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/share/moveit_hybrid_planning/simple_sampler_plugin.xml
+[126.700s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/share/moveit_hybrid_planning/replan_invalidated_trajectory_plugin.xml
+[126.700s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/share/moveit_hybrid_planning/forward_trajectory_plugin.xml
+[126.700s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/share/moveit_hybrid_planning/environment/library_path.sh
+[126.701s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/share/moveit_hybrid_planning/environment/library_path.dsv
+[126.701s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/share/ament_index/resource_index/package_run_dependencies/moveit_hybrid_planning
+[126.701s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/share/ament_index/resource_index/parent_prefix_path/moveit_hybrid_planning
+[126.701s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/share/moveit_hybrid_planning/environment/ament_prefix_path.sh
+[126.701s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/share/moveit_hybrid_planning/environment/ament_prefix_path.dsv
+[126.701s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/share/moveit_hybrid_planning/environment/path.sh
+[126.702s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/share/moveit_hybrid_planning/environment/path.dsv
+[126.702s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/share/moveit_hybrid_planning/local_setup.bash
+[126.702s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/share/moveit_hybrid_planning/local_setup.sh
+[126.702s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/share/moveit_hybrid_planning/local_setup.zsh
+[126.702s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/share/moveit_hybrid_planning/local_setup.dsv
+[126.702s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/share/moveit_hybrid_planning/package.dsv
+[126.703s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/share/ament_index/resource_index/packages/moveit_hybrid_planning
+[126.703s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/share/ament_index/resource_index/moveit_hybrid_planning__pluginlib__plugin/moveit_hybrid_planning
+[126.703s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/share/ament_index/resource_index/rclcpp_components/moveit_hybrid_planning
+[126.703s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/share/moveit_hybrid_planning/cmake/export_moveit_hybrid_planningExport.cmake
+[126.703s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/share/moveit_hybrid_planning/cmake/export_moveit_hybrid_planningExport-release.cmake
+[126.704s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/share/moveit_hybrid_planning/cmake/ament_cmake_export_include_directories-extras.cmake
+[126.704s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/share/moveit_hybrid_planning/cmake/ament_cmake_export_libraries-extras.cmake
+[126.704s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/share/moveit_hybrid_planning/cmake/ament_cmake_export_dependencies-extras.cmake
+[126.704s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/share/moveit_hybrid_planning/cmake/ament_cmake_export_targets-extras.cmake
+[126.704s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/share/moveit_hybrid_planning/cmake/moveit_hybrid_planningConfig.cmake
+[126.704s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/share/moveit_hybrid_planning/cmake/moveit_hybrid_planningConfig-version.cmake
+[126.704s] -- Installing: /ros2_ws/install/moveit_hybrid_planning/share/moveit_hybrid_planning/package.xml
+[126.707s] Invoked command in '/ros2_ws/build/moveit_hybrid_planning' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/moveit_ros_planning_interface:/ros2_ws/install/moveit_ros_move_group:/ros2_ws/install/moveit_ros_warehouse:/ros2_ws/install/moveit_planners_ompl:/ros2_ws/install/moveit_kinematics:/ros2_ws/install/moveit_ros_planning:/ros2_ws/install/moveit_simple_controller_manager:/ros2_ws/install/moveit_ros_occupancy_map_monitor:/ros2_ws/install/moveit_core:/ros2_ws/install/moveit_resources_panda_moveit_config:/ros2_ws/install/moveit_resources_fanuc_moveit_config:/ros2_ws/install/moveit_configs_utils:/ros2_ws/install/srdfdom:/ros2_ws/install/moveit_resources_pr2_description:/ros2_ws/install/moveit_resources_panda_description:/ros2_ws/install/moveit_resources_fanuc_description:/ros2_ws/install/moveit_common:/ros2_ws/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/moveit_ros_planning_interface:/ros2_ws/install/moveit_ros_move_group:/ros2_ws/install/moveit_ros_warehouse:/ros2_ws/install/moveit_planners_ompl:/ros2_ws/install/moveit_kinematics:/ros2_ws/install/moveit_ros_planning:/ros2_ws/install/moveit_simple_controller_manager:/ros2_ws/install/moveit_ros_occupancy_map_monitor:/ros2_ws/install/moveit_core:/ros2_ws/install/moveit_resources_panda_moveit_config:/ros2_ws/install/moveit_resources_fanuc_moveit_config:/ros2_ws/install/srdfdom:/ros2_ws/install/moveit_resources_pr2_description:/ros2_ws/install/moveit_resources_panda_description:/ros2_ws/install/moveit_resources_fanuc_description:/ros2_ws/install/moveit_common:/ros2_ws/install/ur:/ros2_ws/install/ur_calibration:/ros2_ws/install/ur_robot_driver:/ros2_ws/install/ur_bringup:/ros2_ws/install/ur_controllers:/ros2_ws/install/ur_msgs:/ros2_ws/install/ur_moveit_config:/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/moveit_ros_planning_interface/lib:/ros2_ws/install/moveit_ros_move_group/lib:/ros2_ws/install/moveit_ros_warehouse/lib:/ros2_ws/install/moveit_planners_ompl/lib:/ros2_ws/install/moveit_kinematics/lib:/ros2_ws/install/moveit_ros_planning/lib:/ros2_ws/install/moveit_simple_controller_manager/lib:/ros2_ws/install/moveit_ros_occupancy_map_monitor/lib:/ros2_ws/install/moveit_core/lib:/ros2_ws/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/ros2_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/ros2_ws/install/moveit_configs_utils/lib/python3.10/site-packages:/ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages:/ros2_ws/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /ros2_ws/build/moveit_hybrid_planning

@@ -1,0 +1,89 @@
+[0.016s] Invoking command in '/ros2_ws/build/chomp_motion_planner': AMENT_PREFIX_PATH=/ros2_ws/install/moveit_core:/ros2_ws/install/moveit_resources_panda_moveit_config:/ros2_ws/install/srdfdom:/ros2_ws/install/moveit_resources_pr2_description:/ros2_ws/install/moveit_resources_panda_description:/ros2_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/moveit_core:/ros2_ws/install/moveit_resources_panda_moveit_config:/ros2_ws/install/srdfdom:/ros2_ws/install/moveit_resources_pr2_description:/ros2_ws/install/moveit_resources_panda_description:/ros2_ws/install/moveit_common:/ros2_ws/install/ur:/ros2_ws/install/ur_calibration:/ros2_ws/install/ur_robot_driver:/ros2_ws/install/ur_bringup:/ros2_ws/install/ur_controllers:/ros2_ws/install/ur_msgs:/ros2_ws/install/ur_moveit_config:/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/moveit_core/lib:/ros2_ws/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/ros2_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /ros2_ws/src/moveit2/moveit_planners/chomp/chomp_motion_planner -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/chomp_motion_planner
+[0.070s] -- The C compiler identification is GNU 11.4.0
+[0.123s] -- The CXX compiler identification is GNU 11.4.0
+[0.130s] -- Detecting C compiler ABI info
+[0.193s] -- Detecting C compiler ABI info - done
+[0.200s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.200s] -- Detecting C compile features
+[0.201s] -- Detecting C compile features - done
+[0.204s] -- Detecting CXX compiler ABI info
+[0.280s] -- Detecting CXX compiler ABI info - done
+[0.287s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.287s] -- Detecting CXX compile features
+[0.288s] -- Detecting CXX compile features - done
+[0.289s] -- Found moveit_common: 2.5.7 (/ros2_ws/install/moveit_common/share/moveit_common/cmake)
+[0.293s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.439s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.607s] [0mchomp_motion_planner: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[0.607s] -- Found moveit_core: 2.5.7 (/ros2_ws/install/moveit_core/share/moveit_core/cmake)
+[0.850s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[0.917s] -- Found parameter_traits: 0.3.9 (/opt/ros/humble/share/parameter_traits/cmake)
+[0.974s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.982s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.994s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.010s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.032s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.095s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.099s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.196s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.222s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.271s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.285s] -- Found Threads: TRUE  
+[1.354s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.359s] -- Found rclcpp_lifecycle: 16.0.11 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.388s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[1.503s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.588s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.918s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.939s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.939s] -- Configured cppcheck include dirs: /ros2_ws/src/moveit2/moveit_planners/chomp/chomp_motion_planner/include
+[1.939s] -- Configured cppcheck exclude dirs and/or files: 
+[1.940s] -- Added test 'xmllint' to check XML markup files
+[1.942s] -- Configuring done
+[1.973s] -- Generating done
+[1.980s] -- Build files have been written to: /ros2_ws/build/chomp_motion_planner
+[1.991s] Invoked command in '/ros2_ws/build/chomp_motion_planner' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/moveit_core:/ros2_ws/install/moveit_resources_panda_moveit_config:/ros2_ws/install/srdfdom:/ros2_ws/install/moveit_resources_pr2_description:/ros2_ws/install/moveit_resources_panda_description:/ros2_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/moveit_core:/ros2_ws/install/moveit_resources_panda_moveit_config:/ros2_ws/install/srdfdom:/ros2_ws/install/moveit_resources_pr2_description:/ros2_ws/install/moveit_resources_panda_description:/ros2_ws/install/moveit_common:/ros2_ws/install/ur:/ros2_ws/install/ur_calibration:/ros2_ws/install/ur_robot_driver:/ros2_ws/install/ur_bringup:/ros2_ws/install/ur_controllers:/ros2_ws/install/ur_msgs:/ros2_ws/install/ur_moveit_config:/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/moveit_core/lib:/ros2_ws/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/ros2_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /ros2_ws/src/moveit2/moveit_planners/chomp/chomp_motion_planner -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/chomp_motion_planner
+[1.992s] Invoking command in '/ros2_ws/build/chomp_motion_planner': AMENT_PREFIX_PATH=/ros2_ws/install/moveit_core:/ros2_ws/install/moveit_resources_panda_moveit_config:/ros2_ws/install/srdfdom:/ros2_ws/install/moveit_resources_pr2_description:/ros2_ws/install/moveit_resources_panda_description:/ros2_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/moveit_core:/ros2_ws/install/moveit_resources_panda_moveit_config:/ros2_ws/install/srdfdom:/ros2_ws/install/moveit_resources_pr2_description:/ros2_ws/install/moveit_resources_panda_description:/ros2_ws/install/moveit_common:/ros2_ws/install/ur:/ros2_ws/install/ur_calibration:/ros2_ws/install/ur_robot_driver:/ros2_ws/install/ur_bringup:/ros2_ws/install/ur_controllers:/ros2_ws/install/ur_msgs:/ros2_ws/install/ur_moveit_config:/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/moveit_core/lib:/ros2_ws/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/ros2_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros2_ws/build/chomp_motion_planner
+[2.044s] [ 16%] [32mBuilding CXX object CMakeFiles/chomp_motion_planner.dir/src/chomp_cost.cpp.o[0m
+[11.807s] [ 33%] [32mBuilding CXX object CMakeFiles/chomp_motion_planner.dir/src/chomp_optimizer.cpp.o[0m
+[30.063s] [ 50%] [32mBuilding CXX object CMakeFiles/chomp_motion_planner.dir/src/chomp_planner.cpp.o[0m
+[39.876s] [ 66%] [32mBuilding CXX object CMakeFiles/chomp_motion_planner.dir/src/chomp_trajectory.cpp.o[0m
+[45.991s] [ 83%] [32mBuilding CXX object CMakeFiles/chomp_motion_planner.dir/src/chomp_parameters.cpp.o[0m
+[46.515s] [100%] [32m[1mLinking CXX shared library libchomp_motion_planner.so[0m
+[46.732s] [100%] Built target chomp_motion_planner
+[46.742s] Invoked command in '/ros2_ws/build/chomp_motion_planner' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/moveit_core:/ros2_ws/install/moveit_resources_panda_moveit_config:/ros2_ws/install/srdfdom:/ros2_ws/install/moveit_resources_pr2_description:/ros2_ws/install/moveit_resources_panda_description:/ros2_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/moveit_core:/ros2_ws/install/moveit_resources_panda_moveit_config:/ros2_ws/install/srdfdom:/ros2_ws/install/moveit_resources_pr2_description:/ros2_ws/install/moveit_resources_panda_description:/ros2_ws/install/moveit_common:/ros2_ws/install/ur:/ros2_ws/install/ur_calibration:/ros2_ws/install/ur_robot_driver:/ros2_ws/install/ur_bringup:/ros2_ws/install/ur_controllers:/ros2_ws/install/ur_msgs:/ros2_ws/install/ur_moveit_config:/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/moveit_core/lib:/ros2_ws/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/ros2_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros2_ws/build/chomp_motion_planner
+[46.744s] Invoking command in '/ros2_ws/build/chomp_motion_planner': AMENT_PREFIX_PATH=/ros2_ws/install/moveit_core:/ros2_ws/install/moveit_resources_panda_moveit_config:/ros2_ws/install/srdfdom:/ros2_ws/install/moveit_resources_pr2_description:/ros2_ws/install/moveit_resources_panda_description:/ros2_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/moveit_core:/ros2_ws/install/moveit_resources_panda_moveit_config:/ros2_ws/install/srdfdom:/ros2_ws/install/moveit_resources_pr2_description:/ros2_ws/install/moveit_resources_panda_description:/ros2_ws/install/moveit_common:/ros2_ws/install/ur:/ros2_ws/install/ur_calibration:/ros2_ws/install/ur_robot_driver:/ros2_ws/install/ur_bringup:/ros2_ws/install/ur_controllers:/ros2_ws/install/ur_msgs:/ros2_ws/install/ur_moveit_config:/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/moveit_core/lib:/ros2_ws/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/ros2_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros2_ws/build/chomp_motion_planner
+[46.750s] -- Install configuration: "Release"
+[46.751s] -- Installing: /ros2_ws/install/chomp_motion_planner/lib/libchomp_motion_planner.so.2.5.7
+[46.751s] -- Set runtime path of "/ros2_ws/install/chomp_motion_planner/lib/libchomp_motion_planner.so.2.5.7" to ""
+[46.751s] -- Installing: /ros2_ws/install/chomp_motion_planner/lib/libchomp_motion_planner.so
+[46.751s] -- Installing: /ros2_ws/install/chomp_motion_planner/include
+[46.752s] -- Installing: /ros2_ws/install/chomp_motion_planner/include/chomp_motion_planner
+[46.752s] -- Installing: /ros2_ws/install/chomp_motion_planner/include/chomp_motion_planner/chomp_parameters.h
+[46.752s] -- Installing: /ros2_ws/install/chomp_motion_planner/include/chomp_motion_planner/chomp_optimizer.h
+[46.752s] -- Installing: /ros2_ws/install/chomp_motion_planner/include/chomp_motion_planner/chomp_cost.h
+[46.752s] -- Installing: /ros2_ws/install/chomp_motion_planner/include/chomp_motion_planner/chomp_planner.h
+[46.752s] -- Installing: /ros2_ws/install/chomp_motion_planner/include/chomp_motion_planner/chomp_utils.h
+[46.752s] -- Installing: /ros2_ws/install/chomp_motion_planner/include/chomp_motion_planner/multivariate_gaussian.h
+[46.752s] -- Installing: /ros2_ws/install/chomp_motion_planner/include/chomp_motion_planner/chomp_trajectory.h
+[46.752s] -- Installing: /ros2_ws/install/chomp_motion_planner/share/chomp_motion_planner/environment/library_path.sh
+[46.752s] -- Installing: /ros2_ws/install/chomp_motion_planner/share/chomp_motion_planner/environment/library_path.dsv
+[46.753s] -- Installing: /ros2_ws/install/chomp_motion_planner/share/ament_index/resource_index/package_run_dependencies/chomp_motion_planner
+[46.753s] -- Installing: /ros2_ws/install/chomp_motion_planner/share/ament_index/resource_index/parent_prefix_path/chomp_motion_planner
+[46.753s] -- Installing: /ros2_ws/install/chomp_motion_planner/share/chomp_motion_planner/environment/ament_prefix_path.sh
+[46.753s] -- Installing: /ros2_ws/install/chomp_motion_planner/share/chomp_motion_planner/environment/ament_prefix_path.dsv
+[46.753s] -- Installing: /ros2_ws/install/chomp_motion_planner/share/chomp_motion_planner/environment/path.sh
+[46.753s] -- Installing: /ros2_ws/install/chomp_motion_planner/share/chomp_motion_planner/environment/path.dsv
+[46.753s] -- Installing: /ros2_ws/install/chomp_motion_planner/share/chomp_motion_planner/local_setup.bash
+[46.753s] -- Installing: /ros2_ws/install/chomp_motion_planner/share/chomp_motion_planner/local_setup.sh
+[46.753s] -- Installing: /ros2_ws/install/chomp_motion_planner/share/chomp_motion_planner/local_setup.zsh
+[46.754s] -- Installing: /ros2_ws/install/chomp_motion_planner/share/chomp_motion_planner/local_setup.dsv
+[46.754s] -- Installing: /ros2_ws/install/chomp_motion_planner/share/chomp_motion_planner/package.dsv
+[46.754s] -- Installing: /ros2_ws/install/chomp_motion_planner/share/ament_index/resource_index/packages/chomp_motion_planner
+[46.754s] -- Installing: /ros2_ws/install/chomp_motion_planner/share/chomp_motion_planner/cmake/chomp_motion_plannerTargetsExport.cmake
+[46.754s] -- Installing: /ros2_ws/install/chomp_motion_planner/share/chomp_motion_planner/cmake/chomp_motion_plannerTargetsExport-release.cmake
+[46.754s] -- Installing: /ros2_ws/install/chomp_motion_planner/share/chomp_motion_planner/cmake/ament_cmake_export_targets-extras.cmake
+[46.754s] -- Installing: /ros2_ws/install/chomp_motion_planner/share/chomp_motion_planner/cmake/chomp_motion_plannerConfig.cmake
+[46.754s] -- Installing: /ros2_ws/install/chomp_motion_planner/share/chomp_motion_planner/cmake/chomp_motion_plannerConfig-version.cmake
+[46.755s] -- Installing: /ros2_ws/install/chomp_motion_planner/share/chomp_motion_planner/package.xml
+[46.757s] Invoked command in '/ros2_ws/build/chomp_motion_planner' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/moveit_core:/ros2_ws/install/moveit_resources_panda_moveit_config:/ros2_ws/install/srdfdom:/ros2_ws/install/moveit_resources_pr2_description:/ros2_ws/install/moveit_resources_panda_description:/ros2_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/moveit_core:/ros2_ws/install/moveit_resources_panda_moveit_config:/ros2_ws/install/srdfdom:/ros2_ws/install/moveit_resources_pr2_description:/ros2_ws/install/moveit_resources_panda_description:/ros2_ws/install/moveit_common:/ros2_ws/install/ur:/ros2_ws/install/ur_calibration:/ros2_ws/install/ur_robot_driver:/ros2_ws/install/ur_bringup:/ros2_ws/install/ur_controllers:/ros2_ws/install/ur_msgs:/ros2_ws/install/ur_moveit_config:/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/moveit_core/lib:/ros2_ws/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/ros2_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros2_ws/build/chomp_motion_planner

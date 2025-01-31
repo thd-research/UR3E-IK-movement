@@ -1,0 +1,1 @@
+/ros2_ws/install/moveit_resources_panda_description:/ros2_ws/install/ur:/ros2_ws/install/ur_calibration:/ros2_ws/install/ur_robot_driver:/ros2_ws/install/ur_bringup:/ros2_ws/install/ur_controllers:/ros2_ws/install/ur_msgs:/ros2_ws/install/ur_moveit_config:/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble

@@ -1,0 +1,117 @@
+[0.052s] Invoking command in '/ros2_ws/build/moveit_ros_visualization': AMENT_PREFIX_PATH=/ros2_ws/install/moveit_ros_planning_interface:/ros2_ws/install/moveit_ros_move_group:/ros2_ws/install/moveit_ros_warehouse:/ros2_ws/install/moveit_ros_robot_interaction:/ros2_ws/install/moveit_planners_ompl:/ros2_ws/install/moveit_kinematics:/ros2_ws/install/moveit_ros_planning:/ros2_ws/install/moveit_simple_controller_manager:/ros2_ws/install/moveit_ros_occupancy_map_monitor:/ros2_ws/install/moveit_core:/ros2_ws/install/moveit_resources_panda_moveit_config:/ros2_ws/install/moveit_resources_fanuc_moveit_config:/ros2_ws/install/moveit_configs_utils:/ros2_ws/install/srdfdom:/ros2_ws/install/moveit_resources_pr2_description:/ros2_ws/install/moveit_resources_panda_description:/ros2_ws/install/moveit_resources_fanuc_description:/ros2_ws/install/moveit_common:/ros2_ws/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/moveit_ros_planning_interface:/ros2_ws/install/moveit_ros_move_group:/ros2_ws/install/moveit_ros_warehouse:/ros2_ws/install/moveit_ros_robot_interaction:/ros2_ws/install/moveit_planners_ompl:/ros2_ws/install/moveit_kinematics:/ros2_ws/install/moveit_ros_planning:/ros2_ws/install/moveit_simple_controller_manager:/ros2_ws/install/moveit_ros_occupancy_map_monitor:/ros2_ws/install/moveit_core:/ros2_ws/install/moveit_resources_panda_moveit_config:/ros2_ws/install/moveit_resources_fanuc_moveit_config:/ros2_ws/install/srdfdom:/ros2_ws/install/moveit_resources_pr2_description:/ros2_ws/install/moveit_resources_panda_description:/ros2_ws/install/moveit_resources_fanuc_description:/ros2_ws/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/moveit_ros_planning_interface/lib:/ros2_ws/install/moveit_ros_move_group/lib:/ros2_ws/install/moveit_ros_warehouse/lib:/ros2_ws/install/moveit_ros_robot_interaction/lib:/ros2_ws/install/moveit_planners_ompl/lib:/ros2_ws/install/moveit_kinematics/lib:/ros2_ws/install/moveit_ros_planning/lib:/ros2_ws/install/moveit_simple_controller_manager/lib:/ros2_ws/install/moveit_ros_occupancy_map_monitor/lib:/ros2_ws/install/moveit_core/lib:/ros2_ws/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/ros2_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/ros2_ws/install/moveit_configs_utils/lib/python3.10/site-packages:/ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages:/ros2_ws/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /ros2_ws/build/moveit_ros_visualization -- -j8 -l8
+[0.169s] [  1%] [34m[1mAutomatic MOC for target moveit_rviz_plugin_render_tools[0m
+[0.228s] [  1%] Built target moveit_rviz_plugin_render_tools_autogen
+[0.379s] [ 18%] Built target moveit_rviz_plugin_render_tools
+[0.437s] [ 20%] [34m[1mAutomatic MOC for target moveit_robot_state_rviz_plugin_core[0m
+[0.445s] [ 22%] [34m[1mAutomatic MOC for target moveit_planning_scene_rviz_plugin_core[0m
+[0.491s] [ 22%] Built target moveit_robot_state_rviz_plugin_core_autogen
+[0.524s] [ 22%] Built target moveit_planning_scene_rviz_plugin_core_autogen
+[0.641s] [ 31%] Built target moveit_planning_scene_rviz_plugin_core
+[0.642s] [ 34%] Built target moveit_robot_state_rviz_plugin_core
+[0.684s] [ 36%] [34m[1mAutomatic MOC for target moveit_trajectory_rviz_plugin_core[0m
+[0.684s] [ 37%] [34m[1mAutomatic MOC for target moveit_planning_scene_rviz_plugin[0m
+[0.708s] [ 37%] Built target moveit_planning_scene_rviz_plugin_autogen
+[0.709s] [ 37%] Built target moveit_trajectory_rviz_plugin_core_autogen
+[0.732s] [ 39%] [34m[1mAutomatic MOC for target moveit_robot_state_rviz_plugin[0m
+[0.753s] [ 39%] Built target moveit_robot_state_rviz_plugin_autogen
+[0.757s] [ 44%] Built target moveit_planning_scene_rviz_plugin
+[0.764s] [ 50%] Built target moveit_trajectory_rviz_plugin_core
+[0.784s] [ 51%] [34m[1mAutomatic MOC for target moveit_motion_planning_rviz_plugin_core[0m
+[0.788s] [ 53%] [34m[1mAutomatic MOC for target moveit_trajectory_rviz_plugin[0m
+[0.797s] [ 58%] Built target moveit_robot_state_rviz_plugin
+[0.809s] [ 58%] Built target moveit_trajectory_rviz_plugin_autogen
+[0.818s] [ 58%] Built target moveit_motion_planning_rviz_plugin_core_autogen
+[0.850s] [ 63%] Built target moveit_trajectory_rviz_plugin
+[0.922s] [ 93%] Built target moveit_motion_planning_rviz_plugin_core
+[0.945s] [ 94%] [34m[1mAutomatic MOC for target moveit_motion_planning_rviz_plugin[0m
+[0.967s] [ 94%] Built target moveit_motion_planning_rviz_plugin_autogen
+[1.018s] [100%] Built target moveit_motion_planning_rviz_plugin
+[1.039s] Invoked command in '/ros2_ws/build/moveit_ros_visualization' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/moveit_ros_planning_interface:/ros2_ws/install/moveit_ros_move_group:/ros2_ws/install/moveit_ros_warehouse:/ros2_ws/install/moveit_ros_robot_interaction:/ros2_ws/install/moveit_planners_ompl:/ros2_ws/install/moveit_kinematics:/ros2_ws/install/moveit_ros_planning:/ros2_ws/install/moveit_simple_controller_manager:/ros2_ws/install/moveit_ros_occupancy_map_monitor:/ros2_ws/install/moveit_core:/ros2_ws/install/moveit_resources_panda_moveit_config:/ros2_ws/install/moveit_resources_fanuc_moveit_config:/ros2_ws/install/moveit_configs_utils:/ros2_ws/install/srdfdom:/ros2_ws/install/moveit_resources_pr2_description:/ros2_ws/install/moveit_resources_panda_description:/ros2_ws/install/moveit_resources_fanuc_description:/ros2_ws/install/moveit_common:/ros2_ws/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/moveit_ros_planning_interface:/ros2_ws/install/moveit_ros_move_group:/ros2_ws/install/moveit_ros_warehouse:/ros2_ws/install/moveit_ros_robot_interaction:/ros2_ws/install/moveit_planners_ompl:/ros2_ws/install/moveit_kinematics:/ros2_ws/install/moveit_ros_planning:/ros2_ws/install/moveit_simple_controller_manager:/ros2_ws/install/moveit_ros_occupancy_map_monitor:/ros2_ws/install/moveit_core:/ros2_ws/install/moveit_resources_panda_moveit_config:/ros2_ws/install/moveit_resources_fanuc_moveit_config:/ros2_ws/install/srdfdom:/ros2_ws/install/moveit_resources_pr2_description:/ros2_ws/install/moveit_resources_panda_description:/ros2_ws/install/moveit_resources_fanuc_description:/ros2_ws/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/moveit_ros_planning_interface/lib:/ros2_ws/install/moveit_ros_move_group/lib:/ros2_ws/install/moveit_ros_warehouse/lib:/ros2_ws/install/moveit_ros_robot_interaction/lib:/ros2_ws/install/moveit_planners_ompl/lib:/ros2_ws/install/moveit_kinematics/lib:/ros2_ws/install/moveit_ros_planning/lib:/ros2_ws/install/moveit_simple_controller_manager/lib:/ros2_ws/install/moveit_ros_occupancy_map_monitor/lib:/ros2_ws/install/moveit_core/lib:/ros2_ws/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/ros2_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/ros2_ws/install/moveit_configs_utils/lib/python3.10/site-packages:/ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages:/ros2_ws/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /ros2_ws/build/moveit_ros_visualization -- -j8 -l8
+[1.048s] Invoking command in '/ros2_ws/build/moveit_ros_visualization': AMENT_PREFIX_PATH=/ros2_ws/install/moveit_ros_planning_interface:/ros2_ws/install/moveit_ros_move_group:/ros2_ws/install/moveit_ros_warehouse:/ros2_ws/install/moveit_ros_robot_interaction:/ros2_ws/install/moveit_planners_ompl:/ros2_ws/install/moveit_kinematics:/ros2_ws/install/moveit_ros_planning:/ros2_ws/install/moveit_simple_controller_manager:/ros2_ws/install/moveit_ros_occupancy_map_monitor:/ros2_ws/install/moveit_core:/ros2_ws/install/moveit_resources_panda_moveit_config:/ros2_ws/install/moveit_resources_fanuc_moveit_config:/ros2_ws/install/moveit_configs_utils:/ros2_ws/install/srdfdom:/ros2_ws/install/moveit_resources_pr2_description:/ros2_ws/install/moveit_resources_panda_description:/ros2_ws/install/moveit_resources_fanuc_description:/ros2_ws/install/moveit_common:/ros2_ws/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/moveit_ros_planning_interface:/ros2_ws/install/moveit_ros_move_group:/ros2_ws/install/moveit_ros_warehouse:/ros2_ws/install/moveit_ros_robot_interaction:/ros2_ws/install/moveit_planners_ompl:/ros2_ws/install/moveit_kinematics:/ros2_ws/install/moveit_ros_planning:/ros2_ws/install/moveit_simple_controller_manager:/ros2_ws/install/moveit_ros_occupancy_map_monitor:/ros2_ws/install/moveit_core:/ros2_ws/install/moveit_resources_panda_moveit_config:/ros2_ws/install/moveit_resources_fanuc_moveit_config:/ros2_ws/install/srdfdom:/ros2_ws/install/moveit_resources_pr2_description:/ros2_ws/install/moveit_resources_panda_description:/ros2_ws/install/moveit_resources_fanuc_description:/ros2_ws/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/moveit_ros_planning_interface/lib:/ros2_ws/install/moveit_ros_move_group/lib:/ros2_ws/install/moveit_ros_warehouse/lib:/ros2_ws/install/moveit_ros_robot_interaction/lib:/ros2_ws/install/moveit_planners_ompl/lib:/ros2_ws/install/moveit_kinematics/lib:/ros2_ws/install/moveit_ros_planning/lib:/ros2_ws/install/moveit_simple_controller_manager/lib:/ros2_ws/install/moveit_ros_occupancy_map_monitor/lib:/ros2_ws/install/moveit_core/lib:/ros2_ws/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/ros2_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/ros2_ws/install/moveit_configs_utils/lib/python3.10/site-packages:/ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages:/ros2_ws/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /ros2_ws/build/moveit_ros_visualization
+[1.056s] -- Install configuration: "Release"
+[1.056s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/include
+[1.058s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/include/ogre_helpers
+[1.058s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/include/ogre_helpers/mesh_shape.hpp
+[1.058s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/include/moveit
+[1.059s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/include/moveit/rviz_plugin_render_tools
+[1.059s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/include/moveit/rviz_plugin_render_tools/octomap_render.h
+[1.059s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/include/moveit/rviz_plugin_render_tools/robot_state_visualization.h
+[1.059s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/include/moveit/rviz_plugin_render_tools/planning_scene_render.h
+[1.059s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/include/moveit/rviz_plugin_render_tools/trajectory_visualization.h
+[1.059s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/include/moveit/rviz_plugin_render_tools/trajectory_panel.h
+[1.059s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/include/moveit/rviz_plugin_render_tools/planning_link_updater.h
+[1.059s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/include/moveit/rviz_plugin_render_tools/render_shapes.h
+[1.059s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/include
+[1.060s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/include/moveit
+[1.060s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/include/moveit/robot_state_rviz_plugin
+[1.060s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/include/moveit/robot_state_rviz_plugin/robot_state_display.h
+[1.060s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/include
+[1.060s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/include/moveit
+[1.060s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/include/moveit/planning_scene_rviz_plugin
+[1.060s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/include/moveit/planning_scene_rviz_plugin/planning_scene_display.h
+[1.060s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/include/moveit/planning_scene_rviz_plugin/background_processing.hpp
+[1.060s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/include/moveit_planning_scene_rviz_plugin_core_export.h
+[1.060s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/include
+[1.061s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/include/moveit
+[1.061s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/include/moveit/motion_planning_rviz_plugin
+[1.061s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/include/moveit/motion_planning_rviz_plugin/motion_planning_frame_joints_widget.h
+[1.061s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/include/moveit/motion_planning_rviz_plugin/motion_planning_frame.h
+[1.062s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/include/moveit/motion_planning_rviz_plugin/interactive_marker_display.h
+[1.062s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/include/moveit/motion_planning_rviz_plugin/motion_planning_display.h
+[1.062s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/include/moveit/motion_planning_rviz_plugin/motion_planning_param_widget.h
+[1.062s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/include
+[1.062s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/include/moveit
+[1.062s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/include/moveit/trajectory_rviz_plugin
+[1.062s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/include/moveit/trajectory_rviz_plugin/trajectory_display.h
+[1.062s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/icons
+[1.062s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/icons/classes
+[1.062s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/icons/classes/MotionPlanning.png
+[1.062s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/icons/classes/RobotState.png
+[1.062s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/icons/classes/Trajectory.png
+[1.062s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/icons/classes/PlanningScene.png
+[1.062s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/motion_planning_rviz_plugin_description.xml
+[1.063s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/trajectory_rviz_plugin_description.xml
+[1.063s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/planning_scene_rviz_plugin_description.xml
+[1.063s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/robot_state_rviz_plugin_description.xml
+[1.063s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/lib/libmoveit_motion_planning_rviz_plugin.so.2.5.7
+[1.063s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/lib/libmoveit_motion_planning_rviz_plugin.so
+[1.063s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/lib/libmoveit_motion_planning_rviz_plugin_core.so.2.5.7
+[1.063s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/lib/libmoveit_motion_planning_rviz_plugin_core.so
+[1.063s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/lib/libmoveit_planning_scene_rviz_plugin.so.2.5.7
+[1.063s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/lib/libmoveit_planning_scene_rviz_plugin.so
+[1.064s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/lib/libmoveit_planning_scene_rviz_plugin_core.so.2.5.7
+[1.064s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/lib/libmoveit_planning_scene_rviz_plugin_core.so
+[1.064s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/lib/libmoveit_robot_state_rviz_plugin.so.2.5.7
+[1.064s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/lib/libmoveit_robot_state_rviz_plugin.so
+[1.065s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/lib/libmoveit_robot_state_rviz_plugin_core.so.2.5.7
+[1.065s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/lib/libmoveit_robot_state_rviz_plugin_core.so
+[1.066s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/lib/libmoveit_rviz_plugin_render_tools.so.2.5.7
+[1.067s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/lib/libmoveit_rviz_plugin_render_tools.so
+[1.068s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/lib/libmoveit_trajectory_rviz_plugin.so.2.5.7
+[1.068s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/lib/libmoveit_trajectory_rviz_plugin.so
+[1.068s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/lib/libmoveit_trajectory_rviz_plugin_core.so.2.5.7
+[1.069s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/lib/libmoveit_trajectory_rviz_plugin_core.so
+[1.069s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/environment/library_path.sh
+[1.069s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/environment/library_path.dsv
+[1.069s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/share/ament_index/resource_index/package_run_dependencies/moveit_ros_visualization
+[1.069s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/share/ament_index/resource_index/parent_prefix_path/moveit_ros_visualization
+[1.069s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/environment/ament_prefix_path.sh
+[1.070s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/environment/ament_prefix_path.dsv
+[1.070s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/environment/path.sh
+[1.070s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/environment/path.dsv
+[1.070s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/local_setup.bash
+[1.070s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/local_setup.sh
+[1.070s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/local_setup.zsh
+[1.071s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/local_setup.dsv
+[1.071s] -- Installing: /ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/package.dsv
+[1.071s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/share/ament_index/resource_index/packages/moveit_ros_visualization
+[1.071s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/share/ament_index/resource_index/rviz_common__pluginlib__plugin/moveit_ros_visualization
+[1.071s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/cmake/export_moveit_ros_visualizationExport.cmake
+[1.071s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/cmake/export_moveit_ros_visualizationExport-release.cmake
+[1.071s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/cmake/ConfigExtras.cmake
+[1.071s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/cmake/ament_cmake_export_targets-extras.cmake
+[1.072s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.072s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/cmake/moveit_ros_visualizationConfig.cmake
+[1.072s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/cmake/moveit_ros_visualizationConfig-version.cmake
+[1.072s] -- Up-to-date: /ros2_ws/install/moveit_ros_visualization/share/moveit_ros_visualization/package.xml
+[1.078s] Invoked command in '/ros2_ws/build/moveit_ros_visualization' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/moveit_ros_planning_interface:/ros2_ws/install/moveit_ros_move_group:/ros2_ws/install/moveit_ros_warehouse:/ros2_ws/install/moveit_ros_robot_interaction:/ros2_ws/install/moveit_planners_ompl:/ros2_ws/install/moveit_kinematics:/ros2_ws/install/moveit_ros_planning:/ros2_ws/install/moveit_simple_controller_manager:/ros2_ws/install/moveit_ros_occupancy_map_monitor:/ros2_ws/install/moveit_core:/ros2_ws/install/moveit_resources_panda_moveit_config:/ros2_ws/install/moveit_resources_fanuc_moveit_config:/ros2_ws/install/moveit_configs_utils:/ros2_ws/install/srdfdom:/ros2_ws/install/moveit_resources_pr2_description:/ros2_ws/install/moveit_resources_panda_description:/ros2_ws/install/moveit_resources_fanuc_description:/ros2_ws/install/moveit_common:/ros2_ws/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/moveit_ros_planning_interface:/ros2_ws/install/moveit_ros_move_group:/ros2_ws/install/moveit_ros_warehouse:/ros2_ws/install/moveit_ros_robot_interaction:/ros2_ws/install/moveit_planners_ompl:/ros2_ws/install/moveit_kinematics:/ros2_ws/install/moveit_ros_planning:/ros2_ws/install/moveit_simple_controller_manager:/ros2_ws/install/moveit_ros_occupancy_map_monitor:/ros2_ws/install/moveit_core:/ros2_ws/install/moveit_resources_panda_moveit_config:/ros2_ws/install/moveit_resources_fanuc_moveit_config:/ros2_ws/install/srdfdom:/ros2_ws/install/moveit_resources_pr2_description:/ros2_ws/install/moveit_resources_panda_description:/ros2_ws/install/moveit_resources_fanuc_description:/ros2_ws/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/moveit_ros_planning_interface/lib:/ros2_ws/install/moveit_ros_move_group/lib:/ros2_ws/install/moveit_ros_warehouse/lib:/ros2_ws/install/moveit_ros_robot_interaction/lib:/ros2_ws/install/moveit_planners_ompl/lib:/ros2_ws/install/moveit_kinematics/lib:/ros2_ws/install/moveit_ros_planning/lib:/ros2_ws/install/moveit_simple_controller_manager/lib:/ros2_ws/install/moveit_ros_occupancy_map_monitor/lib:/ros2_ws/install/moveit_core/lib:/ros2_ws/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/ros2_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/ros2_ws/install/moveit_configs_utils/lib/python3.10/site-packages:/ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages:/ros2_ws/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /ros2_ws/build/moveit_ros_visualization

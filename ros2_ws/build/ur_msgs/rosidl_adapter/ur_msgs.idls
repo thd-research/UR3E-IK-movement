@@ -1,0 +1,13 @@
+/ros2_ws/build/ur_msgs/rosidl_adapter/ur_msgs:msg/Analog.idl
+/ros2_ws/build/ur_msgs/rosidl_adapter/ur_msgs:msg/Digital.idl
+/ros2_ws/build/ur_msgs/rosidl_adapter/ur_msgs:msg/IOStates.idl
+/ros2_ws/build/ur_msgs/rosidl_adapter/ur_msgs:msg/RobotStateRTMsg.idl
+/ros2_ws/build/ur_msgs/rosidl_adapter/ur_msgs:msg/MasterboardDataMsg.idl
+/ros2_ws/build/ur_msgs/rosidl_adapter/ur_msgs:msg/RobotModeDataMsg.idl
+/ros2_ws/build/ur_msgs/rosidl_adapter/ur_msgs:msg/ToolDataMsg.idl
+/ros2_ws/build/ur_msgs/rosidl_adapter/ur_msgs:srv/SetAnalogOutput.idl
+/ros2_ws/build/ur_msgs/rosidl_adapter/ur_msgs:srv/SetPayload.idl
+/ros2_ws/build/ur_msgs/rosidl_adapter/ur_msgs:srv/SetSpeedSliderFraction.idl
+/ros2_ws/build/ur_msgs/rosidl_adapter/ur_msgs:srv/SetIO.idl
+/ros2_ws/build/ur_msgs/rosidl_adapter/ur_msgs:srv/GetRobotSoftwareVersion.idl
+/ros2_ws/build/ur_msgs/rosidl_adapter/ur_msgs:srv/SetForceMode.idl

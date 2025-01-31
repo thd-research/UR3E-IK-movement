@@ -1,0 +1,18 @@
+{
+  "package_name": "ur_msgs",
+  "non_idl_tuples": [
+    "/ros2_ws/src/ur_msgs:msg/Analog.msg",
+    "/ros2_ws/src/ur_msgs:msg/Digital.msg",
+    "/ros2_ws/src/ur_msgs:msg/IOStates.msg",
+    "/ros2_ws/src/ur_msgs:msg/RobotStateRTMsg.msg",
+    "/ros2_ws/src/ur_msgs:msg/MasterboardDataMsg.msg",
+    "/ros2_ws/src/ur_msgs:msg/RobotModeDataMsg.msg",
+    "/ros2_ws/src/ur_msgs:msg/ToolDataMsg.msg",
+    "/ros2_ws/src/ur_msgs:srv/SetAnalogOutput.srv",
+    "/ros2_ws/src/ur_msgs:srv/SetPayload.srv",
+    "/ros2_ws/src/ur_msgs:srv/SetSpeedSliderFraction.srv",
+    "/ros2_ws/src/ur_msgs:srv/SetIO.srv",
+    "/ros2_ws/src/ur_msgs:srv/GetRobotSoftwareVersion.srv",
+    "/ros2_ws/src/ur_msgs:srv/SetForceMode.srv"
+  ]
+}

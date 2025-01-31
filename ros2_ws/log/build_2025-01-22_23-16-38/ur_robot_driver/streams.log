@@ -1,0 +1,193 @@
+[0.015s] Invoking command in '/ros2_ws/build/ur_robot_driver': AMENT_PREFIX_PATH=/ros2_ws/install/ur_controllers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/ur_controllers:/ros2_ws/install/ur_msgs:/ros2_ws/install/ur_dashboard_msgs:/ros2_ws/install/ur_moveit_config:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/ur_controllers/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /ros2_ws/src/Universal_Robots_ROS2_Driver/ur_robot_driver -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/ur_robot_driver
+[0.116s] -- The C compiler identification is GNU 11.4.0
+[0.172s] -- The CXX compiler identification is GNU 11.4.0
+[0.182s] -- Detecting C compiler ABI info
+[0.250s] -- Detecting C compiler ABI info - done
+[0.256s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.257s] -- Detecting C compile features
+[0.257s] -- Detecting C compile features - done
+[0.260s] -- Detecting CXX compiler ABI info
+[0.333s] -- Detecting CXX compiler ABI info - done
+[0.340s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.341s] -- Detecting CXX compile features
+[0.341s] -- Detecting CXX compile features - done
+[0.351s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.518s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.639s] -- Found controller_manager: 2.44.0 (/opt/ros/humble/share/controller_manager/cmake)
+[0.721s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.729s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.741s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.763s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.787s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.079s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.083s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.119s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.171s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.174s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.187s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.190s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.198s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.207s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.222s] -- Looking for pthread.h
+[1.313s] -- Looking for pthread.h - found
+[1.313s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.402s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.403s] -- Found Threads: TRUE  
+[1.512s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[1.514s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[1.527s] -- Found tf2_geometry_msgs: 0.25.9 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.546s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.547s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.547s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.622s] -- Found ur_dashboard_msgs: 2.5.1 (/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake)
+[1.636s] -- Found ur_msgs: 2.1.0 (/ros2_ws/install/ur_msgs/share/ur_msgs/cmake)
+[1.885s] -- Found ur_controllers: 2.5.1 (/ros2_ws/install/ur_controllers/share/ur_controllers/cmake)
+[1.915s] -- Found parameter_traits: 0.3.9 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.968s] -- Found ur_description: 2.1.8 (/opt/ros/humble/share/ur_description/cmake)
+[1.971s] -- Found launch_testing_ament_cmake: 1.0.7 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[1.974s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.994s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.998s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.999s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.999s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.999s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.018s] -- Found PythonExtra: .so  
+[2.019s] -- Configuring done
+[2.185s] -- Generating done
+[2.207s] -- Build files have been written to: /ros2_ws/build/ur_robot_driver
+[2.218s] Invoked command in '/ros2_ws/build/ur_robot_driver' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/ur_controllers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/ur_controllers:/ros2_ws/install/ur_msgs:/ros2_ws/install/ur_dashboard_msgs:/ros2_ws/install/ur_moveit_config:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/ur_controllers/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /ros2_ws/src/Universal_Robots_ROS2_Driver/ur_robot_driver -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/ur_robot_driver
+[2.219s] Invoking command in '/ros2_ws/build/ur_robot_driver': AMENT_PREFIX_PATH=/ros2_ws/install/ur_controllers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/ur_controllers:/ros2_ws/install/ur_msgs:/ros2_ws/install/ur_dashboard_msgs:/ros2_ws/install/ur_moveit_config:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/ur_controllers/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /ros2_ws/build/ur_robot_driver -- -j8 -l8
+[2.278s] [  6%] [32mBuilding CXX object CMakeFiles/controller_stopper_node.dir/src/controller_stopper.cpp.o[0m
+[2.278s] [ 13%] [32mBuilding CXX object CMakeFiles/urscript_interface.dir/src/urscript_interface.cpp.o[0m
+[2.279s] [ 20%] [32mBuilding CXX object CMakeFiles/dashboard_client.dir/src/dashboard_client_ros.cpp.o[0m
+[2.280s] [ 26%] [32mBuilding CXX object CMakeFiles/ur_ros2_control_node.dir/src/ur_ros2_control_node.cpp.o[0m
+[2.280s] [ 40%] [32mBuilding CXX object CMakeFiles/controller_stopper_node.dir/src/controller_stopper_node.cpp.o[0m
+[2.280s] [ 40%] [32mBuilding CXX object CMakeFiles/ur_robot_driver_plugin.dir/src/dashboard_client_ros.cpp.o[0m
+[2.280s] [ 46%] [32mBuilding CXX object CMakeFiles/dashboard_client.dir/src/dashboard_client_node.cpp.o[0m
+[2.295s] [ 46%] Built target ament_cmake_python_copy_ur_robot_driver
+[2.312s] [ 53%] [32mBuilding CXX object CMakeFiles/dashboard_client.dir/src/urcl_log_handler.cpp.o[0m
+[3.009s] In file included from [01m[K/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_robot_driver/src/ur_ros2_control_node.cpp:44[m[K:
+[3.010s] [01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/thread_priority.hpp:39:2:[m[K [01;35m[Kwarning: [m[K#warning "This header include is deprecated. Please update your code to use 'realtime_helpers.hpp' header and link against 'realtime_tools' library." [[01;35m[K-Wcpp[m[K]
+[3.010s]    39 | #[01;35m[Kwarning[m[K \
+[3.010s]       |  [01;35m[K^~~~~~~[m[K
+[3.764s] [ 60%] [32mBuilding CXX object CMakeFiles/ur_robot_driver_plugin.dir/src/hardware_interface.cpp.o[0m
+[8.705s] [ 66%] [32mBuilding CXX object CMakeFiles/ur_robot_driver_plugin.dir/src/urcl_log_handler.cpp.o[0m
+[10.023s] [ 73%] [32m[1mLinking CXX executable ur_ros2_control_node[0m
+[10.387s] [ 73%] Built target ur_ros2_control_node
+[10.639s] running egg_info
+[10.640s] creating ur_robot_driver.egg-info
+[10.640s] writing ur_robot_driver.egg-info/PKG-INFO
+[10.641s] writing dependency_links to ur_robot_driver.egg-info/dependency_links.txt
+[10.641s] writing top-level names to ur_robot_driver.egg-info/top_level.txt
+[10.641s] writing manifest file 'ur_robot_driver.egg-info/SOURCES.txt'
+[10.645s] reading manifest file 'ur_robot_driver.egg-info/SOURCES.txt'
+[10.646s] writing manifest file 'ur_robot_driver.egg-info/SOURCES.txt'
+[10.694s] [ 73%] Built target ament_cmake_python_build_ur_robot_driver_egg
+[19.006s] [ 80%] [32m[1mLinking CXX executable controller_stopper_node[0m
+[19.343s] [ 80%] Built target controller_stopper_node
+[20.014s] [ 86%] [32m[1mLinking CXX executable urscript_interface[0m
+[20.306s] [ 86%] Built target urscript_interface
+[21.896s] [ 93%] [32m[1mLinking CXX executable dashboard_client[0m
+[21.963s] [100%] [32m[1mLinking CXX shared library libur_robot_driver_plugin.so[0m
+[22.166s] [100%] Built target dashboard_client
+[22.247s] [100%] Built target ur_robot_driver_plugin
+[22.257s] Invoked command in '/ros2_ws/build/ur_robot_driver' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/ur_controllers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/ur_controllers:/ros2_ws/install/ur_msgs:/ros2_ws/install/ur_dashboard_msgs:/ros2_ws/install/ur_moveit_config:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/ur_controllers/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /ros2_ws/build/ur_robot_driver -- -j8 -l8
+[22.258s] Invoking command in '/ros2_ws/build/ur_robot_driver': AMENT_PREFIX_PATH=/ros2_ws/install/ur_controllers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/ur_controllers:/ros2_ws/install/ur_msgs:/ros2_ws/install/ur_dashboard_msgs:/ros2_ws/install/ur_moveit_config:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/ur_controllers/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /ros2_ws/build/ur_robot_driver
+[22.265s] -- Install configuration: "Release"
+[22.265s] -- Installing: /ros2_ws/install/ur_robot_driver/share/ur_robot_driver/hardware_interface_plugin.xml
+[22.265s] -- Installing: /ros2_ws/install/ur_robot_driver/lib/ur_robot_driver/dashboard_client
+[22.266s] -- Set runtime path of "/ros2_ws/install/ur_robot_driver/lib/ur_robot_driver/dashboard_client" to ""
+[22.266s] -- Installing: /ros2_ws/install/ur_robot_driver/lib/ur_robot_driver/ur_ros2_control_node
+[22.267s] -- Set runtime path of "/ros2_ws/install/ur_robot_driver/lib/ur_robot_driver/ur_ros2_control_node" to ""
+[22.267s] -- Installing: /ros2_ws/install/ur_robot_driver/lib/ur_robot_driver/controller_stopper_node
+[22.268s] -- Set runtime path of "/ros2_ws/install/ur_robot_driver/lib/ur_robot_driver/controller_stopper_node" to ""
+[22.268s] -- Installing: /ros2_ws/install/ur_robot_driver/lib/ur_robot_driver/urscript_interface
+[22.269s] -- Set runtime path of "/ros2_ws/install/ur_robot_driver/lib/ur_robot_driver/urscript_interface" to ""
+[22.269s] -- Installing: /ros2_ws/install/ur_robot_driver/lib/libur_robot_driver_plugin.so
+[22.270s] -- Set runtime path of "/ros2_ws/install/ur_robot_driver/lib/libur_robot_driver_plugin.so" to ""
+[22.270s] -- Installing: /ros2_ws/install/ur_robot_driver/include
+[22.270s] -- Installing: /ros2_ws/install/ur_robot_driver/include/ur_robot_driver
+[22.271s] -- Installing: /ros2_ws/install/ur_robot_driver/include/ur_robot_driver/hardware_interface.hpp
+[22.271s] -- Installing: /ros2_ws/install/ur_robot_driver/include/ur_robot_driver/urcl_log_handler.hpp
+[22.271s] -- Installing: /ros2_ws/install/ur_robot_driver/include/ur_robot_driver/controller_stopper.hpp
+[22.271s] -- Installing: /ros2_ws/install/ur_robot_driver/include/ur_robot_driver/dashboard_client_ros.hpp
+[22.271s] -- Installing: /ros2_ws/install/ur_robot_driver/share/ur_robot_driver/environment/library_path.sh
+[22.271s] -- Installing: /ros2_ws/install/ur_robot_driver/share/ur_robot_driver/environment/library_path.dsv
+[22.271s] -- Installing: /ros2_ws/install/ur_robot_driver/share/ur_robot_driver/resources
+[22.271s] -- Installing: /ros2_ws/install/ur_robot_driver/share/ur_robot_driver/resources/ros_control.urscript
+[22.272s] -- Installing: /ros2_ws/install/ur_robot_driver/share/ur_robot_driver/resources/externalcontrol-1.0.5.urcap
+[22.272s] -- Installing: /ros2_ws/install/ur_robot_driver/share/ur_robot_driver/resources/rs485-1.0.urcap
+[22.272s] -- Installing: /ros2_ws/install/ur_robot_driver/share/ur_robot_driver/resources/rtde_output_recipe.txt
+[22.272s] -- Installing: /ros2_ws/install/ur_robot_driver/share/ur_robot_driver/resources/rtde_input_recipe.txt
+[22.273s] -- Up-to-date: /ros2_ws/install/ur_robot_driver/include
+[22.273s] -- Up-to-date: /ros2_ws/install/ur_robot_driver/include/ur_robot_driver
+[22.273s] -- Up-to-date: /ros2_ws/install/ur_robot_driver/include/ur_robot_driver/hardware_interface.hpp
+[22.273s] -- Up-to-date: /ros2_ws/install/ur_robot_driver/include/ur_robot_driver/urcl_log_handler.hpp
+[22.273s] -- Up-to-date: /ros2_ws/install/ur_robot_driver/include/ur_robot_driver/controller_stopper.hpp
+[22.273s] -- Up-to-date: /ros2_ws/install/ur_robot_driver/include/ur_robot_driver/dashboard_client_ros.hpp
+[22.273s] -- Installing: /ros2_ws/install/ur_robot_driver/share/ur_robot_driver/environment/pythonpath.sh
+[22.273s] -- Installing: /ros2_ws/install/ur_robot_driver/share/ur_robot_driver/environment/pythonpath.dsv
+[22.273s] -- Installing: /ros2_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.5.1-py3.10.egg-info
+[22.273s] -- Installing: /ros2_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.5.1-py3.10.egg-info/dependency_links.txt
+[22.273s] -- Installing: /ros2_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.5.1-py3.10.egg-info/top_level.txt
+[22.274s] -- Installing: /ros2_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.5.1-py3.10.egg-info/SOURCES.txt
+[22.274s] -- Installing: /ros2_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.5.1-py3.10.egg-info/PKG-INFO
+[22.274s] -- Installing: /ros2_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver
+[22.274s] -- Installing: /ros2_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver/__init__.py
+[22.304s] Listing '/ros2_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver'...
+[22.304s] Compiling '/ros2_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver/__init__.py'...
+[22.307s] -- Installing: /ros2_ws/install/ur_robot_driver/lib/ur_robot_driver/tool_communication.py
+[22.308s] -- Installing: /ros2_ws/install/ur_robot_driver/lib/ur_robot_driver/example_move.py
+[22.308s] -- Installing: /ros2_ws/install/ur_robot_driver/lib/ur_robot_driver/start_ursim.sh
+[22.308s] -- Installing: /ros2_ws/install/ur_robot_driver/lib/ur_robot_driver/examples.py
+[22.308s] -- Installing: /ros2_ws/install/ur_robot_driver/lib/ur_robot_driver/force_mode.py
+[22.308s] -- Installing: /ros2_ws/install/ur_robot_driver/bin/wait_dashboard_server.sh
+[22.309s] -- Up-to-date: /ros2_ws/install/ur_robot_driver/lib/ur_robot_driver/start_ursim.sh
+[22.309s] -- Installing: /ros2_ws/install/ur_robot_driver/share/ur_robot_driver/config
+[22.309s] -- Installing: /ros2_ws/install/ur_robot_driver/share/ur_robot_driver/config/test_velocity_goal_publishers_config.yaml
+[22.309s] -- Installing: /ros2_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur5e_update_rate.yaml
+[22.309s] -- Installing: /ros2_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur3e_update_rate.yaml
+[22.309s] -- Installing: /ros2_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur16e_update_rate.yaml
+[22.309s] -- Installing: /ros2_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur5_update_rate.yaml
+[22.310s] -- Installing: /ros2_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur_controllers.yaml
+[22.310s] -- Installing: /ros2_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur20_update_rate.yaml
+[22.310s] -- Installing: /ros2_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur10e_update_rate.yaml
+[22.310s] -- Installing: /ros2_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur3_update_rate.yaml
+[22.310s] -- Installing: /ros2_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur30_update_rate.yaml
+[22.310s] -- Installing: /ros2_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur10_update_rate.yaml
+[22.311s] -- Installing: /ros2_ws/install/ur_robot_driver/share/ur_robot_driver/config/test_goal_publishers_config.yaml
+[22.311s] -- Installing: /ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch
+[22.311s] -- Installing: /ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur5e.launch.py
+[22.311s] -- Installing: /ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/test_forward_velocity_controller.launch.py
+[22.311s] -- Installing: /ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur16e.launch.py
+[22.312s] -- Installing: /ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur10.launch.py
+[22.312s] -- Installing: /ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur_dashboard_client.launch.py
+[22.312s] -- Installing: /ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur20.launch.py
+[22.312s] -- Installing: /ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur10e.launch.py
+[22.312s] -- Installing: /ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur5.launch.py
+[22.312s] -- Installing: /ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur3e.launch.py
+[22.313s] -- Installing: /ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur30.launch.py
+[22.313s] -- Installing: /ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur3.launch.py
+[22.313s] -- Installing: /ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/test_joint_trajectory_controller.launch.py
+[22.313s] -- Installing: /ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/test_scaled_joint_trajectory_controller.launch.py
+[22.313s] -- Installing: /ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur_control.launch.py
+[22.314s] -- Installing: /ros2_ws/install/ur_robot_driver/share/ament_index/resource_index/package_run_dependencies/ur_robot_driver
+[22.314s] -- Installing: /ros2_ws/install/ur_robot_driver/share/ament_index/resource_index/parent_prefix_path/ur_robot_driver
+[22.314s] -- Installing: /ros2_ws/install/ur_robot_driver/share/ur_robot_driver/environment/ament_prefix_path.sh
+[22.314s] -- Installing: /ros2_ws/install/ur_robot_driver/share/ur_robot_driver/environment/ament_prefix_path.dsv
+[22.314s] -- Installing: /ros2_ws/install/ur_robot_driver/share/ur_robot_driver/environment/path.sh
+[22.314s] -- Installing: /ros2_ws/install/ur_robot_driver/share/ur_robot_driver/environment/path.dsv
+[22.315s] -- Installing: /ros2_ws/install/ur_robot_driver/share/ur_robot_driver/local_setup.bash
+[22.315s] -- Installing: /ros2_ws/install/ur_robot_driver/share/ur_robot_driver/local_setup.sh
+[22.315s] -- Installing: /ros2_ws/install/ur_robot_driver/share/ur_robot_driver/local_setup.zsh
+[22.315s] -- Installing: /ros2_ws/install/ur_robot_driver/share/ur_robot_driver/local_setup.dsv
+[22.315s] -- Installing: /ros2_ws/install/ur_robot_driver/share/ur_robot_driver/package.dsv
+[22.315s] -- Installing: /ros2_ws/install/ur_robot_driver/share/ament_index/resource_index/packages/ur_robot_driver
+[22.315s] -- Installing: /ros2_ws/install/ur_robot_driver/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ur_robot_driver
+[22.315s] -- Installing: /ros2_ws/install/ur_robot_driver/share/ur_robot_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[22.316s] -- Installing: /ros2_ws/install/ur_robot_driver/share/ur_robot_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[22.316s] -- Installing: /ros2_ws/install/ur_robot_driver/share/ur_robot_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[22.316s] -- Installing: /ros2_ws/install/ur_robot_driver/share/ur_robot_driver/cmake/ur_robot_driverConfig.cmake
+[22.316s] -- Installing: /ros2_ws/install/ur_robot_driver/share/ur_robot_driver/cmake/ur_robot_driverConfig-version.cmake
+[22.316s] -- Installing: /ros2_ws/install/ur_robot_driver/share/ur_robot_driver/package.xml
+[22.318s] Invoked command in '/ros2_ws/build/ur_robot_driver' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/ur_controllers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/ur_controllers:/ros2_ws/install/ur_msgs:/ros2_ws/install/ur_dashboard_msgs:/ros2_ws/install/ur_moveit_config:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/ur_controllers/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /ros2_ws/build/ur_robot_driver

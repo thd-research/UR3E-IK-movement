@@ -1,0 +1,142 @@
+[0.022s] Invoking command in '/ros2_ws/build/moveit_ros_warehouse': AMENT_PREFIX_PATH=/ros2_ws/install/moveit_ros_planning:/ros2_ws/install/moveit_ros_occupancy_map_monitor:/ros2_ws/install/moveit_core:/ros2_ws/install/moveit_resources_panda_moveit_config:/ros2_ws/install/moveit_configs_utils:/ros2_ws/install/srdfdom:/ros2_ws/install/moveit_resources_pr2_description:/ros2_ws/install/moveit_resources_panda_description:/ros2_ws/install/moveit_common:/ros2_ws/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/moveit_ros_planning:/ros2_ws/install/moveit_ros_occupancy_map_monitor:/ros2_ws/install/moveit_core:/ros2_ws/install/moveit_resources_panda_moveit_config:/ros2_ws/install/srdfdom:/ros2_ws/install/moveit_resources_pr2_description:/ros2_ws/install/moveit_resources_panda_description:/ros2_ws/install/moveit_common:/ros2_ws/install/ur:/ros2_ws/install/ur_calibration:/ros2_ws/install/ur_robot_driver:/ros2_ws/install/ur_bringup:/ros2_ws/install/ur_controllers:/ros2_ws/install/ur_msgs:/ros2_ws/install/ur_moveit_config:/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/moveit_ros_planning/lib:/ros2_ws/install/moveit_ros_occupancy_map_monitor/lib:/ros2_ws/install/moveit_core/lib:/ros2_ws/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/ros2_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/ros2_ws/install/moveit_configs_utils/lib/python3.10/site-packages:/ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages:/ros2_ws/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /ros2_ws/src/moveit2/moveit_ros/warehouse -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/moveit_ros_warehouse
+[0.073s] -- The C compiler identification is GNU 11.4.0
+[0.127s] -- The CXX compiler identification is GNU 11.4.0
+[0.135s] -- Detecting C compiler ABI info
+[0.205s] -- Detecting C compiler ABI info - done
+[0.212s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.213s] -- Detecting C compile features
+[0.213s] -- Detecting C compile features - done
+[0.216s] -- Detecting CXX compiler ABI info
+[0.297s] -- Detecting CXX compiler ABI info - done
+[0.305s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.305s] -- Detecting CXX compile features
+[0.305s] -- Detecting CXX compile features - done
+[0.307s] -- Found moveit_common: 2.5.7 (/ros2_ws/install/moveit_common/share/moveit_common/cmake)
+[0.311s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.465s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.639s] [0mmoveit_ros_warehouse: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[0.642s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.704s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.713s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.725s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.741s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.764s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.829s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.834s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.932s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.962s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.012s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.026s] -- Looking for pthread.h
+[1.116s] -- Looking for pthread.h - found
+[1.116s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.210s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.211s] -- Found Threads: TRUE  
+[1.269s] -- Found moveit_core: 2.5.7 (/ros2_ws/install/moveit_core/share/moveit_core/cmake)
+[1.327s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.386s] -- Found parameter_traits: 0.3.9 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.403s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.408s] -- Found rclcpp_lifecycle: 16.0.11 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.438s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[1.556s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.635s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.942s] -- Found warehouse_ros: 2.0.5 (/opt/ros/humble/share/warehouse_ros/cmake)
+[1.952s] -- Found moveit_ros_planning: 2.5.7 (/ros2_ws/install/moveit_ros_planning/share/moveit_ros_planning/cmake)
+[1.959s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[1.988s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[1.990s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[2.087s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[2.088s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[2.185s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[2.185s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[2.286s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[2.335s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.359s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.360s] -- Configured cppcheck include dirs: /ros2_ws/src/moveit2/moveit_ros/warehouse/include
+[2.360s] -- Configured cppcheck exclude dirs and/or files: 
+[2.361s] -- Added test 'lint_cmake' to check CMake code style
+[2.361s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.362s] -- Added test 'xmllint' to check XML markup files
+[2.364s] -- Configuring done
+[2.500s] -- Generating done
+[2.538s] -- Build files have been written to: /ros2_ws/build/moveit_ros_warehouse
+[2.550s] Invoked command in '/ros2_ws/build/moveit_ros_warehouse' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/moveit_ros_planning:/ros2_ws/install/moveit_ros_occupancy_map_monitor:/ros2_ws/install/moveit_core:/ros2_ws/install/moveit_resources_panda_moveit_config:/ros2_ws/install/moveit_configs_utils:/ros2_ws/install/srdfdom:/ros2_ws/install/moveit_resources_pr2_description:/ros2_ws/install/moveit_resources_panda_description:/ros2_ws/install/moveit_common:/ros2_ws/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/moveit_ros_planning:/ros2_ws/install/moveit_ros_occupancy_map_monitor:/ros2_ws/install/moveit_core:/ros2_ws/install/moveit_resources_panda_moveit_config:/ros2_ws/install/srdfdom:/ros2_ws/install/moveit_resources_pr2_description:/ros2_ws/install/moveit_resources_panda_description:/ros2_ws/install/moveit_common:/ros2_ws/install/ur:/ros2_ws/install/ur_calibration:/ros2_ws/install/ur_robot_driver:/ros2_ws/install/ur_bringup:/ros2_ws/install/ur_controllers:/ros2_ws/install/ur_msgs:/ros2_ws/install/ur_moveit_config:/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/moveit_ros_planning/lib:/ros2_ws/install/moveit_ros_occupancy_map_monitor/lib:/ros2_ws/install/moveit_core/lib:/ros2_ws/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/ros2_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/ros2_ws/install/moveit_configs_utils/lib/python3.10/site-packages:/ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages:/ros2_ws/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /ros2_ws/src/moveit2/moveit_ros/warehouse -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/moveit_ros_warehouse
+[2.551s] Invoking command in '/ros2_ws/build/moveit_ros_warehouse': AMENT_PREFIX_PATH=/ros2_ws/install/moveit_ros_planning:/ros2_ws/install/moveit_ros_occupancy_map_monitor:/ros2_ws/install/moveit_core:/ros2_ws/install/moveit_resources_panda_moveit_config:/ros2_ws/install/moveit_configs_utils:/ros2_ws/install/srdfdom:/ros2_ws/install/moveit_resources_pr2_description:/ros2_ws/install/moveit_resources_panda_description:/ros2_ws/install/moveit_common:/ros2_ws/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/moveit_ros_planning:/ros2_ws/install/moveit_ros_occupancy_map_monitor:/ros2_ws/install/moveit_core:/ros2_ws/install/moveit_resources_panda_moveit_config:/ros2_ws/install/srdfdom:/ros2_ws/install/moveit_resources_pr2_description:/ros2_ws/install/moveit_resources_panda_description:/ros2_ws/install/moveit_common:/ros2_ws/install/ur:/ros2_ws/install/ur_calibration:/ros2_ws/install/ur_robot_driver:/ros2_ws/install/ur_bringup:/ros2_ws/install/ur_controllers:/ros2_ws/install/ur_msgs:/ros2_ws/install/ur_moveit_config:/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/moveit_ros_planning/lib:/ros2_ws/install/moveit_ros_occupancy_map_monitor/lib:/ros2_ws/install/moveit_core/lib:/ros2_ws/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/ros2_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/ros2_ws/install/moveit_configs_utils/lib/python3.10/site-packages:/ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages:/ros2_ws/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /ros2_ws/build/moveit_ros_warehouse
+[2.604s] [  5%] [32mBuilding CXX object CMakeFiles/moveit_warehouse.dir/src/moveit_message_storage.cpp.o[0m
+[10.054s] [ 10%] [32mBuilding CXX object CMakeFiles/moveit_warehouse.dir/src/constraints_storage.cpp.o[0m
+[14.877s] [ 15%] [32mBuilding CXX object CMakeFiles/moveit_warehouse.dir/src/trajectory_constraints_storage.cpp.o[0m
+[19.746s] [ 20%] [32mBuilding CXX object CMakeFiles/moveit_warehouse.dir/src/state_storage.cpp.o[0m
+[24.737s] [ 25%] [32mBuilding CXX object CMakeFiles/moveit_warehouse.dir/src/warehouse_connector.cpp.o[0m
+[25.545s] [ 30%] [32mBuilding CXX object CMakeFiles/moveit_warehouse.dir/src/planning_scene_world_storage.cpp.o[0m
+[30.319s] [ 35%] [32mBuilding CXX object CMakeFiles/moveit_warehouse.dir/src/planning_scene_storage.cpp.o[0m
+[40.247s] [ 40%] [32m[1mLinking CXX shared library libmoveit_warehouse.so[0m
+[40.751s] [ 40%] Built target moveit_warehouse
+[40.772s] [ 45%] [32mBuilding CXX object CMakeFiles/moveit_warehouse_broadcast.dir/src/broadcast.cpp.o[0m
+[52.014s] [ 50%] [32m[1mLinking CXX executable moveit_warehouse_broadcast[0m
+[52.268s] [ 50%] Built target moveit_warehouse_broadcast
+[52.288s] [ 55%] [32mBuilding CXX object CMakeFiles/moveit_warehouse_save_as_text.dir/src/save_as_text.cpp.o[0m
+[62.889s] [ 60%] [32m[1mLinking CXX executable moveit_warehouse_save_as_text[0m
+[63.221s] [ 60%] Built target moveit_warehouse_save_as_text
+[63.243s] [ 65%] [32mBuilding CXX object CMakeFiles/moveit_init_demo_warehouse.dir/src/initialize_demo_db.cpp.o[0m
+[73.885s] [ 70%] [32m[1mLinking CXX executable moveit_init_demo_warehouse[0m
+[74.219s] [ 70%] Built target moveit_init_demo_warehouse
+[74.240s] [ 75%] [32mBuilding CXX object CMakeFiles/moveit_warehouse_services.dir/src/warehouse_services.cpp.o[0m
+[83.018s] [ 80%] [32m[1mLinking CXX executable moveit_warehouse_services[0m
+[83.288s] [ 80%] Built target moveit_warehouse_services
+[83.310s] [ 85%] [32mBuilding CXX object CMakeFiles/moveit_warehouse_import_from_text.dir/src/import_from_text.cpp.o[0m
+[95.447s] [ 90%] [32m[1mLinking CXX executable moveit_warehouse_import_from_text[0m
+[95.780s] [ 90%] Built target moveit_warehouse_import_from_text
+[95.801s] [ 95%] [32mBuilding CXX object CMakeFiles/moveit_save_to_warehouse.dir/src/save_to_warehouse.cpp.o[0m
+[118.728s] [100%] [32m[1mLinking CXX executable moveit_save_to_warehouse[0m
+[119.192s] [100%] Built target moveit_save_to_warehouse
+[119.204s] Invoked command in '/ros2_ws/build/moveit_ros_warehouse' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/moveit_ros_planning:/ros2_ws/install/moveit_ros_occupancy_map_monitor:/ros2_ws/install/moveit_core:/ros2_ws/install/moveit_resources_panda_moveit_config:/ros2_ws/install/moveit_configs_utils:/ros2_ws/install/srdfdom:/ros2_ws/install/moveit_resources_pr2_description:/ros2_ws/install/moveit_resources_panda_description:/ros2_ws/install/moveit_common:/ros2_ws/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/moveit_ros_planning:/ros2_ws/install/moveit_ros_occupancy_map_monitor:/ros2_ws/install/moveit_core:/ros2_ws/install/moveit_resources_panda_moveit_config:/ros2_ws/install/srdfdom:/ros2_ws/install/moveit_resources_pr2_description:/ros2_ws/install/moveit_resources_panda_description:/ros2_ws/install/moveit_common:/ros2_ws/install/ur:/ros2_ws/install/ur_calibration:/ros2_ws/install/ur_robot_driver:/ros2_ws/install/ur_bringup:/ros2_ws/install/ur_controllers:/ros2_ws/install/ur_msgs:/ros2_ws/install/ur_moveit_config:/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/moveit_ros_planning/lib:/ros2_ws/install/moveit_ros_occupancy_map_monitor/lib:/ros2_ws/install/moveit_core/lib:/ros2_ws/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/ros2_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/ros2_ws/install/moveit_configs_utils/lib/python3.10/site-packages:/ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages:/ros2_ws/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /ros2_ws/build/moveit_ros_warehouse
+[119.205s] Invoking command in '/ros2_ws/build/moveit_ros_warehouse': AMENT_PREFIX_PATH=/ros2_ws/install/moveit_ros_planning:/ros2_ws/install/moveit_ros_occupancy_map_monitor:/ros2_ws/install/moveit_core:/ros2_ws/install/moveit_resources_panda_moveit_config:/ros2_ws/install/moveit_configs_utils:/ros2_ws/install/srdfdom:/ros2_ws/install/moveit_resources_pr2_description:/ros2_ws/install/moveit_resources_panda_description:/ros2_ws/install/moveit_common:/ros2_ws/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/moveit_ros_planning:/ros2_ws/install/moveit_ros_occupancy_map_monitor:/ros2_ws/install/moveit_core:/ros2_ws/install/moveit_resources_panda_moveit_config:/ros2_ws/install/srdfdom:/ros2_ws/install/moveit_resources_pr2_description:/ros2_ws/install/moveit_resources_panda_description:/ros2_ws/install/moveit_common:/ros2_ws/install/ur:/ros2_ws/install/ur_calibration:/ros2_ws/install/ur_robot_driver:/ros2_ws/install/ur_bringup:/ros2_ws/install/ur_controllers:/ros2_ws/install/ur_msgs:/ros2_ws/install/ur_moveit_config:/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/moveit_ros_planning/lib:/ros2_ws/install/moveit_ros_occupancy_map_monitor/lib:/ros2_ws/install/moveit_core/lib:/ros2_ws/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/ros2_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/ros2_ws/install/moveit_configs_utils/lib/python3.10/site-packages:/ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages:/ros2_ws/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /ros2_ws/build/moveit_ros_warehouse
+[119.212s] -- Install configuration: "Release"
+[119.212s] -- Installing: /ros2_ws/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_save_to_warehouse
+[119.214s] -- Set runtime path of "/ros2_ws/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_save_to_warehouse" to ""
+[119.214s] -- Installing: /ros2_ws/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_broadcast
+[119.215s] -- Set runtime path of "/ros2_ws/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_broadcast" to ""
+[119.215s] -- Installing: /ros2_ws/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_import_from_text
+[119.215s] -- Set runtime path of "/ros2_ws/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_import_from_text" to ""
+[119.215s] -- Installing: /ros2_ws/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_save_as_text
+[119.216s] -- Set runtime path of "/ros2_ws/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_save_as_text" to ""
+[119.216s] -- Installing: /ros2_ws/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_init_demo_warehouse
+[119.216s] -- Set runtime path of "/ros2_ws/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_init_demo_warehouse" to ""
+[119.217s] -- Installing: /ros2_ws/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_services
+[119.217s] -- Set runtime path of "/ros2_ws/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_services" to ""
+[119.217s] -- Installing: /ros2_ws/install/moveit_ros_warehouse/include
+[119.217s] -- Installing: /ros2_ws/install/moveit_ros_warehouse/include/moveit
+[119.217s] -- Installing: /ros2_ws/install/moveit_ros_warehouse/include/moveit/warehouse
+[119.217s] -- Installing: /ros2_ws/install/moveit_ros_warehouse/include/moveit/warehouse/planning_scene_storage.h
+[119.218s] -- Installing: /ros2_ws/install/moveit_ros_warehouse/include/moveit/warehouse/moveit_message_storage.h
+[119.218s] -- Installing: /ros2_ws/install/moveit_ros_warehouse/include/moveit/warehouse/planning_scene_world_storage.h
+[119.218s] -- Installing: /ros2_ws/install/moveit_ros_warehouse/include/moveit/warehouse/trajectory_constraints_storage.h
+[119.218s] -- Installing: /ros2_ws/install/moveit_ros_warehouse/include/moveit/warehouse/warehouse_connector.h
+[119.218s] -- Installing: /ros2_ws/install/moveit_ros_warehouse/include/moveit/warehouse/constraints_storage.h
+[119.218s] -- Installing: /ros2_ws/install/moveit_ros_warehouse/include/moveit/warehouse/state_storage.h
+[119.218s] -- Installing: /ros2_ws/install/moveit_ros_warehouse/include/moveit_warehouse_export.h
+[119.218s] -- Installing: /ros2_ws/install/moveit_ros_warehouse/lib/libmoveit_warehouse.so.2.5.7
+[119.219s] -- Set runtime path of "/ros2_ws/install/moveit_ros_warehouse/lib/libmoveit_warehouse.so.2.5.7" to ""
+[119.219s] -- Installing: /ros2_ws/install/moveit_ros_warehouse/lib/libmoveit_warehouse.so
+[119.219s] -- Installing: /ros2_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/library_path.sh
+[119.219s] -- Installing: /ros2_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/library_path.dsv
+[119.220s] -- Installing: /ros2_ws/install/moveit_ros_warehouse/share/ament_index/resource_index/package_run_dependencies/moveit_ros_warehouse
+[119.220s] -- Installing: /ros2_ws/install/moveit_ros_warehouse/share/ament_index/resource_index/parent_prefix_path/moveit_ros_warehouse
+[119.220s] -- Installing: /ros2_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/ament_prefix_path.sh
+[119.220s] -- Installing: /ros2_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/ament_prefix_path.dsv
+[119.220s] -- Installing: /ros2_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/path.sh
+[119.220s] -- Installing: /ros2_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/path.dsv
+[119.220s] -- Installing: /ros2_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/local_setup.bash
+[119.221s] -- Installing: /ros2_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/local_setup.sh
+[119.221s] -- Installing: /ros2_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/local_setup.zsh
+[119.221s] -- Installing: /ros2_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/local_setup.dsv
+[119.221s] -- Installing: /ros2_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/package.dsv
+[119.221s] -- Installing: /ros2_ws/install/moveit_ros_warehouse/share/ament_index/resource_index/packages/moveit_ros_warehouse
+[119.221s] -- Installing: /ros2_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/export_moveit_ros_warehouseExport.cmake
+[119.221s] -- Installing: /ros2_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/export_moveit_ros_warehouseExport-release.cmake
+[119.221s] -- Installing: /ros2_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/ConfigExtras.cmake
+[119.221s] -- Installing: /ros2_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/ament_cmake_export_targets-extras.cmake
+[119.222s] -- Installing: /ros2_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/ament_cmake_export_dependencies-extras.cmake
+[119.222s] -- Installing: /ros2_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/moveit_ros_warehouseConfig.cmake
+[119.222s] -- Installing: /ros2_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/moveit_ros_warehouseConfig-version.cmake
+[119.222s] -- Installing: /ros2_ws/install/moveit_ros_warehouse/share/moveit_ros_warehouse/package.xml
+[119.224s] Invoked command in '/ros2_ws/build/moveit_ros_warehouse' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/moveit_ros_planning:/ros2_ws/install/moveit_ros_occupancy_map_monitor:/ros2_ws/install/moveit_core:/ros2_ws/install/moveit_resources_panda_moveit_config:/ros2_ws/install/moveit_configs_utils:/ros2_ws/install/srdfdom:/ros2_ws/install/moveit_resources_pr2_description:/ros2_ws/install/moveit_resources_panda_description:/ros2_ws/install/moveit_common:/ros2_ws/install/launch_param_builder:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/moveit_ros_planning:/ros2_ws/install/moveit_ros_occupancy_map_monitor:/ros2_ws/install/moveit_core:/ros2_ws/install/moveit_resources_panda_moveit_config:/ros2_ws/install/srdfdom:/ros2_ws/install/moveit_resources_pr2_description:/ros2_ws/install/moveit_resources_panda_description:/ros2_ws/install/moveit_common:/ros2_ws/install/ur:/ros2_ws/install/ur_calibration:/ros2_ws/install/ur_robot_driver:/ros2_ws/install/ur_bringup:/ros2_ws/install/ur_controllers:/ros2_ws/install/ur_msgs:/ros2_ws/install/ur_moveit_config:/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/moveit_ros_planning/lib:/ros2_ws/install/moveit_ros_occupancy_map_monitor/lib:/ros2_ws/install/moveit_core/lib:/ros2_ws/install/srdfdom/lib:${LD_LIBRARY_PATH} PATH=/ros2_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/ros2_ws/install/moveit_configs_utils/lib/python3.10/site-packages:/ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages:/ros2_ws/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /ros2_ws/build/moveit_ros_warehouse

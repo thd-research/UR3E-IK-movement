@@ -1,0 +1,39 @@
+[0.016s] Invoking command in '/ros2_ws/build/ur_calibration': AMENT_PREFIX_PATH=/ros2_ws/install/ur_robot_driver:/ros2_ws/install/ur_controllers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/ur_robot_driver:/ros2_ws/install/ur_controllers:/ros2_ws/install/ur_msgs:/ros2_ws/install/ur_dashboard_msgs:/ros2_ws/install/ur_moveit_config:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/ur_robot_driver/lib:/ros2_ws/install/ur_controllers/lib:${LD_LIBRARY_PATH} PATH=/ros2_ws/install/ur_robot_driver/bin:${PATH} PYTHONPATH=/ros2_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros2_ws/build/ur_calibration -- -j8 -l8
+[0.055s] [35m[1mConsolidate compiler generated dependencies of target gmock_main[0m
+[0.055s] [35m[1mConsolidate compiler generated dependencies of target gmock[0m
+[0.056s] [35m[1mConsolidate compiler generated dependencies of target calibration[0m
+[0.068s] [ 16%] Built target gmock_main
+[0.069s] [ 41%] Built target gmock
+[0.077s] [ 66%] Built target calibration
+[0.088s] [35m[1mConsolidate compiler generated dependencies of target calibration_test[0m
+[0.088s] [35m[1mConsolidate compiler generated dependencies of target calibration_correction[0m
+[0.107s] [100%] Built target calibration_test
+[0.107s] [100%] Built target calibration_correction
+[0.117s] Invoked command in '/ros2_ws/build/ur_calibration' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/ur_robot_driver:/ros2_ws/install/ur_controllers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/ur_robot_driver:/ros2_ws/install/ur_controllers:/ros2_ws/install/ur_msgs:/ros2_ws/install/ur_dashboard_msgs:/ros2_ws/install/ur_moveit_config:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/ur_robot_driver/lib:/ros2_ws/install/ur_controllers/lib:${LD_LIBRARY_PATH} PATH=/ros2_ws/install/ur_robot_driver/bin:${PATH} PYTHONPATH=/ros2_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros2_ws/build/ur_calibration -- -j8 -l8
+[0.119s] Invoking command in '/ros2_ws/build/ur_calibration': AMENT_PREFIX_PATH=/ros2_ws/install/ur_robot_driver:/ros2_ws/install/ur_controllers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/ur_robot_driver:/ros2_ws/install/ur_controllers:/ros2_ws/install/ur_msgs:/ros2_ws/install/ur_dashboard_msgs:/ros2_ws/install/ur_moveit_config:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/ur_robot_driver/lib:/ros2_ws/install/ur_controllers/lib:${LD_LIBRARY_PATH} PATH=/ros2_ws/install/ur_robot_driver/bin:${PATH} PYTHONPATH=/ros2_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros2_ws/build/ur_calibration
+[0.125s] -- Install configuration: "Release"
+[0.125s] -- Up-to-date: /ros2_ws/install/ur_calibration/lib/ur_calibration/calibration_correction
+[0.126s] -- Up-to-date: /ros2_ws/install/ur_calibration/include
+[0.126s] -- Up-to-date: /ros2_ws/install/ur_calibration/include/ur_calibration
+[0.126s] -- Up-to-date: /ros2_ws/install/ur_calibration/include/ur_calibration/calibration_consumer.hpp
+[0.126s] -- Up-to-date: /ros2_ws/install/ur_calibration/include/ur_calibration/calibration.hpp
+[0.126s] -- Up-to-date: /ros2_ws/install/ur_calibration/share/ur_calibration/launch
+[0.126s] -- Up-to-date: /ros2_ws/install/ur_calibration/share/ur_calibration/launch/calibration_correction.launch.py
+[0.126s] -- Up-to-date: /ros2_ws/install/ur_calibration/share/ament_index/resource_index/package_run_dependencies/ur_calibration
+[0.126s] -- Up-to-date: /ros2_ws/install/ur_calibration/share/ament_index/resource_index/parent_prefix_path/ur_calibration
+[0.126s] -- Up-to-date: /ros2_ws/install/ur_calibration/share/ur_calibration/environment/ament_prefix_path.sh
+[0.126s] -- Up-to-date: /ros2_ws/install/ur_calibration/share/ur_calibration/environment/ament_prefix_path.dsv
+[0.126s] -- Up-to-date: /ros2_ws/install/ur_calibration/share/ur_calibration/environment/path.sh
+[0.126s] -- Up-to-date: /ros2_ws/install/ur_calibration/share/ur_calibration/environment/path.dsv
+[0.126s] -- Up-to-date: /ros2_ws/install/ur_calibration/share/ur_calibration/local_setup.bash
+[0.126s] -- Up-to-date: /ros2_ws/install/ur_calibration/share/ur_calibration/local_setup.sh
+[0.127s] -- Up-to-date: /ros2_ws/install/ur_calibration/share/ur_calibration/local_setup.zsh
+[0.127s] -- Up-to-date: /ros2_ws/install/ur_calibration/share/ur_calibration/local_setup.dsv
+[0.127s] -- Installing: /ros2_ws/install/ur_calibration/share/ur_calibration/package.dsv
+[0.127s] -- Up-to-date: /ros2_ws/install/ur_calibration/share/ament_index/resource_index/packages/ur_calibration
+[0.127s] -- Up-to-date: /ros2_ws/install/ur_calibration/share/ur_calibration/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.127s] -- Up-to-date: /ros2_ws/install/ur_calibration/share/ur_calibration/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.127s] -- Up-to-date: /ros2_ws/install/ur_calibration/share/ur_calibration/cmake/ur_calibrationConfig.cmake
+[0.127s] -- Up-to-date: /ros2_ws/install/ur_calibration/share/ur_calibration/cmake/ur_calibrationConfig-version.cmake
+[0.127s] -- Up-to-date: /ros2_ws/install/ur_calibration/share/ur_calibration/package.xml
+[0.129s] Invoked command in '/ros2_ws/build/ur_calibration' returned '0': AMENT_PREFIX_PATH=/ros2_ws/install/ur_robot_driver:/ros2_ws/install/ur_controllers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros2_ws/install/ur_robot_driver:/ros2_ws/install/ur_controllers:/ros2_ws/install/ur_msgs:/ros2_ws/install/ur_dashboard_msgs:/ros2_ws/install/ur_moveit_config:/opt/ros/humble LD_LIBRARY_PATH=/ros2_ws/install/ur_robot_driver/lib:/ros2_ws/install/ur_controllers/lib:${LD_LIBRARY_PATH} PATH=/ros2_ws/install/ur_robot_driver/bin:${PATH} PYTHONPATH=/ros2_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros2_ws/build/ur_calibration

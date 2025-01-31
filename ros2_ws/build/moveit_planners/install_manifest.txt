@@ -1,0 +1,15 @@
+/ros2_ws/install/moveit_planners/share/ament_index/resource_index/package_run_dependencies/moveit_planners
+/ros2_ws/install/moveit_planners/share/ament_index/resource_index/parent_prefix_path/moveit_planners
+/ros2_ws/install/moveit_planners/share/moveit_planners/environment/ament_prefix_path.sh
+/ros2_ws/install/moveit_planners/share/moveit_planners/environment/ament_prefix_path.dsv
+/ros2_ws/install/moveit_planners/share/moveit_planners/environment/path.sh
+/ros2_ws/install/moveit_planners/share/moveit_planners/environment/path.dsv
+/ros2_ws/install/moveit_planners/share/moveit_planners/local_setup.bash
+/ros2_ws/install/moveit_planners/share/moveit_planners/local_setup.sh
+/ros2_ws/install/moveit_planners/share/moveit_planners/local_setup.zsh
+/ros2_ws/install/moveit_planners/share/moveit_planners/local_setup.dsv
+/ros2_ws/install/moveit_planners/share/moveit_planners/package.dsv
+/ros2_ws/install/moveit_planners/share/ament_index/resource_index/packages/moveit_planners
+/ros2_ws/install/moveit_planners/share/moveit_planners/cmake/moveit_plannersConfig.cmake
+/ros2_ws/install/moveit_planners/share/moveit_planners/cmake/moveit_plannersConfig-version.cmake
+/ros2_ws/install/moveit_planners/share/moveit_planners/package.xml

@@ -1,0 +1,105 @@
+[0.007s] Invoking command in '/ros2_ws/build/srdfdom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /ros2_ws/src/srdfdom -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/srdfdom
+[0.066s] -- The CXX compiler identification is GNU 11.4.0
+[0.072s] -- Detecting CXX compiler ABI info
+[0.146s] -- Detecting CXX compiler ABI info - done
+[0.152s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.152s] -- Detecting CXX compile features
+[0.153s] -- Detecting CXX compile features - done
+[0.162s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+[0.176s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.314s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.416s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[0.469s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.549s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[0.552s] -- Found ament_cmake_pytest: 1.3.11 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[0.844s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.880s] -- The C compiler identification is GNU 11.4.0
+[0.886s] -- Detecting C compiler ABI info
+[0.948s] -- Detecting C compiler ABI info - done
+[0.959s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.959s] -- Detecting C compile features
+[0.959s] -- Detecting C compile features - done
+[0.962s] -- Looking for C++ include pthread.h
+[1.040s] -- Looking for C++ include pthread.h - found
+[1.040s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.119s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.120s] -- Found Threads: TRUE  
+[1.125s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.144s] -- Configuring done
+[1.156s] -- Generating done
+[1.160s] -- Build files have been written to: /ros2_ws/build/srdfdom
+[1.165s] Invoked command in '/ros2_ws/build/srdfdom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /ros2_ws/src/srdfdom -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/srdfdom
+[1.166s] Invoking command in '/ros2_ws/build/srdfdom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/srdfdom
+[1.209s] [  9%] [32mBuilding CXX object CMakeFiles/srdfdom.dir/src/model.cpp.o[0m
+[2.906s] [ 18%] [32mBuilding CXX object CMakeFiles/srdfdom.dir/src/srdf_writer.cpp.o[0m
+[4.095s] [ 27%] [32m[1mLinking CXX shared library libsrdfdom.so[0m
+[4.220s] [ 27%] Built target srdfdom
+[4.239s] [ 36%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[7.015s] [ 45%] [32m[1mLinking CXX static library libgtest.a[0m
+[7.067s] [ 45%] Built target gtest
+[7.085s] [ 54%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[7.896s] [ 63%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[7.926s] [ 63%] Built target gtest_main
+[7.952s] [ 63%] Built target ament_cmake_python_copy_srdfdom
+[7.971s] [ 72%] [32mBuilding CXX object CMakeFiles/test_cpp_nl_NL.UTF-8.dir/test/test_parser.cpp.o[0m
+[9.399s] [ 81%] [32m[1mLinking CXX executable test_cpp_nl_NL.UTF-8[0m
+[9.536s] [ 81%] Built target test_cpp_nl_NL.UTF-8
+[9.752s] running egg_info
+[9.752s] creating srdfdom.egg-info
+[9.752s] writing srdfdom.egg-info/PKG-INFO
+[9.753s] writing dependency_links to srdfdom.egg-info/dependency_links.txt
+[9.753s] writing top-level names to srdfdom.egg-info/top_level.txt
+[9.753s] writing manifest file 'srdfdom.egg-info/SOURCES.txt'
+[9.755s] reading manifest file 'srdfdom.egg-info/SOURCES.txt'
+[9.755s] writing manifest file 'srdfdom.egg-info/SOURCES.txt'
+[9.777s] [ 81%] Built target ament_cmake_python_build_srdfdom_egg
+[9.796s] [ 90%] [32mBuilding CXX object CMakeFiles/test_cpp_C.dir/test/test_parser.cpp.o[0m
+[11.262s] [100%] [32m[1mLinking CXX executable test_cpp_C[0m
+[11.398s] [100%] Built target test_cpp_C
+[11.408s] Invoked command in '/ros2_ws/build/srdfdom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/srdfdom
+[11.409s] Invoking command in '/ros2_ws/build/srdfdom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/srdfdom
+[11.416s] -- Install configuration: ""
+[11.416s] -- Installing: /ros2_ws/install/srdfdom/lib/libsrdfdom.so.2.0.7
+[11.417s] -- Set runtime path of "/ros2_ws/install/srdfdom/lib/libsrdfdom.so.2.0.7" to ""
+[11.417s] -- Installing: /ros2_ws/install/srdfdom/lib/libsrdfdom.so
+[11.418s] -- Installing: /ros2_ws/install/srdfdom/include/srdfdom
+[11.418s] -- Installing: /ros2_ws/install/srdfdom/include/srdfdom/srdfdom
+[11.418s] -- Installing: /ros2_ws/install/srdfdom/include/srdfdom/srdfdom/visibility_control.h
+[11.418s] -- Installing: /ros2_ws/install/srdfdom/include/srdfdom/srdfdom/model.h
+[11.418s] -- Installing: /ros2_ws/install/srdfdom/include/srdfdom/srdfdom/srdf_writer.h
+[11.418s] -- Installing: /ros2_ws/install/srdfdom/lib/srdfdom/display_srdf
+[11.418s] -- Installing: /ros2_ws/install/srdfdom/share/srdfdom/environment/pythonpath.sh
+[11.418s] -- Installing: /ros2_ws/install/srdfdom/share/srdfdom/environment/pythonpath.dsv
+[11.418s] -- Installing: /ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.7-py3.10.egg-info
+[11.419s] -- Installing: /ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.7-py3.10.egg-info/dependency_links.txt
+[11.419s] -- Installing: /ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.7-py3.10.egg-info/top_level.txt
+[11.419s] -- Installing: /ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.7-py3.10.egg-info/SOURCES.txt
+[11.419s] -- Installing: /ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.7-py3.10.egg-info/PKG-INFO
+[11.419s] -- Installing: /ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom
+[11.419s] -- Installing: /ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom/__init__.py
+[11.419s] -- Installing: /ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom/srdf.py
+[11.450s] Listing '/ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom'...
+[11.450s] Compiling '/ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom/__init__.py'...
+[11.450s] Compiling '/ros2_ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom/srdf.py'...
+[11.454s] -- Installing: /ros2_ws/install/srdfdom/share/srdfdom/environment/library_path.sh
+[11.454s] -- Installing: /ros2_ws/install/srdfdom/share/srdfdom/environment/library_path.dsv
+[11.454s] -- Installing: /ros2_ws/install/srdfdom/share/ament_index/resource_index/package_run_dependencies/srdfdom
+[11.454s] -- Installing: /ros2_ws/install/srdfdom/share/ament_index/resource_index/parent_prefix_path/srdfdom
+[11.454s] -- Installing: /ros2_ws/install/srdfdom/share/srdfdom/environment/ament_prefix_path.sh
+[11.454s] -- Installing: /ros2_ws/install/srdfdom/share/srdfdom/environment/ament_prefix_path.dsv
+[11.455s] -- Installing: /ros2_ws/install/srdfdom/share/srdfdom/environment/path.sh
+[11.455s] -- Installing: /ros2_ws/install/srdfdom/share/srdfdom/environment/path.dsv
+[11.455s] -- Installing: /ros2_ws/install/srdfdom/share/srdfdom/local_setup.bash
+[11.455s] -- Installing: /ros2_ws/install/srdfdom/share/srdfdom/local_setup.sh
+[11.455s] -- Installing: /ros2_ws/install/srdfdom/share/srdfdom/local_setup.zsh
+[11.455s] -- Installing: /ros2_ws/install/srdfdom/share/srdfdom/local_setup.dsv
+[11.455s] -- Installing: /ros2_ws/install/srdfdom/share/srdfdom/package.dsv
+[11.455s] -- Installing: /ros2_ws/install/srdfdom/share/ament_index/resource_index/packages/srdfdom
+[11.456s] -- Installing: /ros2_ws/install/srdfdom/share/srdfdom/cmake/srdfdomTargetsExport.cmake
+[11.456s] -- Installing: /ros2_ws/install/srdfdom/share/srdfdom/cmake/srdfdomTargetsExport-noconfig.cmake
+[11.456s] -- Installing: /ros2_ws/install/srdfdom/share/srdfdom/cmake/ament_cmake_export_targets-extras.cmake
+[11.456s] -- Installing: /ros2_ws/install/srdfdom/share/srdfdom/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.456s] -- Installing: /ros2_ws/install/srdfdom/share/srdfdom/cmake/srdfdomConfig.cmake
+[11.456s] -- Installing: /ros2_ws/install/srdfdom/share/srdfdom/cmake/srdfdomConfig-version.cmake
+[11.457s] -- Installing: /ros2_ws/install/srdfdom/share/srdfdom/package.xml
+[11.459s] Invoked command in '/ros2_ws/build/srdfdom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/srdfdom

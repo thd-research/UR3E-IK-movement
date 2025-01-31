@@ -1,0 +1,69 @@
+[0.017s] Invoking command in '/ros2_ws/build/ur_controllers': CMAKE_PREFIX_PATH=/ros2_ws/install/ur_msgs:/ros2_ws/install/ur_dashboard_msgs:/ros2_ws/install/ur_moveit_config:/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/ur_controllers -- -j8 -l8
+[0.064s] [35m[1mConsolidate compiler generated dependencies of target gmock_main[0m
+[0.077s] [  4%] Built target gpio_controller_parameters
+[0.077s] [ 12%] Built target speed_scaling_state_broadcaster_parameters
+[0.077s] [ 12%] Built target force_mode_controller_parameters
+[0.077s] [ 16%] Built target passthrough_trajectory_controller_parameters
+[0.077s] [ 20%] Built target freedrive_mode_controller_parameters
+[0.078s] [ 25%] Built target ur_configuration_controller_parameters
+[0.078s] [ 29%] Built target scaled_joint_trajectory_controller_parameters
+[0.083s] [ 37%] Built target gmock_main
+[0.086s] [35m[1mConsolidate compiler generated dependencies of target gmock[0m
+[0.092s] [35m[1mConsolidate compiler generated dependencies of target ur_controllers[0m
+[0.100s] [ 50%] Built target gmock
+[0.124s] [ 83%] Built target ur_controllers
+[0.134s] [35m[1mConsolidate compiler generated dependencies of target test_load_freedrive_mode_controller[0m
+[0.135s] [35m[1mConsolidate compiler generated dependencies of target test_load_force_mode_controller[0m
+[0.153s] [100%] Built target test_load_freedrive_mode_controller
+[0.153s] [100%] Built target test_load_force_mode_controller
+[0.163s] Invoked command in '/ros2_ws/build/ur_controllers' returned '0': CMAKE_PREFIX_PATH=/ros2_ws/install/ur_msgs:/ros2_ws/install/ur_dashboard_msgs:/ros2_ws/install/ur_moveit_config:/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/ur_controllers -- -j8 -l8
+[0.164s] Invoking command in '/ros2_ws/build/ur_controllers': CMAKE_PREFIX_PATH=/ros2_ws/install/ur_msgs:/ros2_ws/install/ur_dashboard_msgs:/ros2_ws/install/ur_moveit_config:/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/ur_controllers
+[0.171s] -- Install configuration: "Release"
+[0.171s] -- Up-to-date: /ros2_ws/install/ur_controllers/include/force_mode_controller_parameters
+[0.171s] -- Up-to-date: /ros2_ws/install/ur_controllers/include/force_mode_controller_parameters/force_mode_controller_parameters.hpp
+[0.171s] -- Up-to-date: /ros2_ws/install/ur_controllers/include/gpio_controller_parameters
+[0.171s] -- Up-to-date: /ros2_ws/install/ur_controllers/include/gpio_controller_parameters/gpio_controller_parameters.hpp
+[0.171s] -- Up-to-date: /ros2_ws/install/ur_controllers/include/speed_scaling_state_broadcaster_parameters
+[0.171s] -- Up-to-date: /ros2_ws/install/ur_controllers/include/speed_scaling_state_broadcaster_parameters/speed_scaling_state_broadcaster_parameters.hpp
+[0.172s] -- Up-to-date: /ros2_ws/install/ur_controllers/include/scaled_joint_trajectory_controller_parameters
+[0.172s] -- Up-to-date: /ros2_ws/install/ur_controllers/include/scaled_joint_trajectory_controller_parameters/scaled_joint_trajectory_controller_parameters.hpp
+[0.172s] -- Up-to-date: /ros2_ws/install/ur_controllers/include/freedrive_mode_controller_parameters
+[0.172s] -- Up-to-date: /ros2_ws/install/ur_controllers/include/freedrive_mode_controller_parameters/freedrive_mode_controller_parameters.hpp
+[0.172s] -- Up-to-date: /ros2_ws/install/ur_controllers/include/passthrough_trajectory_controller_parameters
+[0.172s] -- Up-to-date: /ros2_ws/install/ur_controllers/include/passthrough_trajectory_controller_parameters/passthrough_trajectory_controller_parameters.hpp
+[0.172s] -- Up-to-date: /ros2_ws/install/ur_controllers/include/ur_configuration_controller_parameters
+[0.172s] -- Up-to-date: /ros2_ws/install/ur_controllers/include/ur_configuration_controller_parameters/ur_configuration_controller_parameters.hpp
+[0.172s] -- Up-to-date: /ros2_ws/install/ur_controllers/share/ur_controllers/controller_plugins.xml
+[0.172s] -- Up-to-date: /ros2_ws/install/ur_controllers/lib/libur_controllers.so
+[0.173s] -- Up-to-date: /ros2_ws/install/ur_controllers/include
+[0.173s] -- Up-to-date: /ros2_ws/install/ur_controllers/include/ur_controllers
+[0.173s] -- Up-to-date: /ros2_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller.hpp
+[0.173s] -- Up-to-date: /ros2_ws/install/ur_controllers/include/ur_controllers/force_mode_controller.hpp
+[0.173s] -- Up-to-date: /ros2_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller.hpp
+[0.173s] -- Up-to-date: /ros2_ws/install/ur_controllers/include/ur_controllers/gpio_controller.hpp
+[0.173s] -- Up-to-date: /ros2_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller.hpp
+[0.173s] -- Up-to-date: /ros2_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller.hpp
+[0.174s] -- Up-to-date: /ros2_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster.hpp
+[0.174s] -- Up-to-date: /ros2_ws/install/ur_controllers/share/ur_controllers/controller_plugins.xml
+[0.174s] -- Up-to-date: /ros2_ws/install/ur_controllers/share/ur_controllers/environment/library_path.sh
+[0.174s] -- Up-to-date: /ros2_ws/install/ur_controllers/share/ur_controllers/environment/library_path.dsv
+[0.174s] -- Up-to-date: /ros2_ws/install/ur_controllers/share/ament_index/resource_index/package_run_dependencies/ur_controllers
+[0.174s] -- Up-to-date: /ros2_ws/install/ur_controllers/share/ament_index/resource_index/parent_prefix_path/ur_controllers
+[0.174s] -- Up-to-date: /ros2_ws/install/ur_controllers/share/ur_controllers/environment/ament_prefix_path.sh
+[0.174s] -- Up-to-date: /ros2_ws/install/ur_controllers/share/ur_controllers/environment/ament_prefix_path.dsv
+[0.174s] -- Up-to-date: /ros2_ws/install/ur_controllers/share/ur_controllers/environment/path.sh
+[0.174s] -- Up-to-date: /ros2_ws/install/ur_controllers/share/ur_controllers/environment/path.dsv
+[0.174s] -- Up-to-date: /ros2_ws/install/ur_controllers/share/ur_controllers/local_setup.bash
+[0.174s] -- Up-to-date: /ros2_ws/install/ur_controllers/share/ur_controllers/local_setup.sh
+[0.175s] -- Up-to-date: /ros2_ws/install/ur_controllers/share/ur_controllers/local_setup.zsh
+[0.175s] -- Up-to-date: /ros2_ws/install/ur_controllers/share/ur_controllers/local_setup.dsv
+[0.175s] -- Installing: /ros2_ws/install/ur_controllers/share/ur_controllers/package.dsv
+[0.175s] -- Up-to-date: /ros2_ws/install/ur_controllers/share/ament_index/resource_index/packages/ur_controllers
+[0.175s] -- Up-to-date: /ros2_ws/install/ur_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/ur_controllers
+[0.175s] -- Up-to-date: /ros2_ws/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.175s] -- Up-to-date: /ros2_ws/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.175s] -- Up-to-date: /ros2_ws/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_libraries-extras.cmake
+[0.175s] -- Up-to-date: /ros2_ws/install/ur_controllers/share/ur_controllers/cmake/ur_controllersConfig.cmake
+[0.175s] -- Up-to-date: /ros2_ws/install/ur_controllers/share/ur_controllers/cmake/ur_controllersConfig-version.cmake
+[0.175s] -- Up-to-date: /ros2_ws/install/ur_controllers/share/ur_controllers/package.xml
+[0.176s] Invoked command in '/ros2_ws/build/ur_controllers' returned '0': CMAKE_PREFIX_PATH=/ros2_ws/install/ur_msgs:/ros2_ws/install/ur_dashboard_msgs:/ros2_ws/install/ur_moveit_config:/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/ur_controllers

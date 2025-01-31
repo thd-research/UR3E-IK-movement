@@ -1,0 +1,15 @@
+/ros2_ws/install/ur/share/ament_index/resource_index/package_run_dependencies/ur
+/ros2_ws/install/ur/share/ament_index/resource_index/parent_prefix_path/ur
+/ros2_ws/install/ur/share/ur/environment/ament_prefix_path.sh
+/ros2_ws/install/ur/share/ur/environment/ament_prefix_path.dsv
+/ros2_ws/install/ur/share/ur/environment/path.sh
+/ros2_ws/install/ur/share/ur/environment/path.dsv
+/ros2_ws/install/ur/share/ur/local_setup.bash
+/ros2_ws/install/ur/share/ur/local_setup.sh
+/ros2_ws/install/ur/share/ur/local_setup.zsh
+/ros2_ws/install/ur/share/ur/local_setup.dsv
+/ros2_ws/install/ur/share/ur/package.dsv
+/ros2_ws/install/ur/share/ament_index/resource_index/packages/ur
+/ros2_ws/install/ur/share/ur/cmake/urConfig.cmake
+/ros2_ws/install/ur/share/ur/cmake/urConfig-version.cmake
+/ros2_ws/install/ur/share/ur/package.xml

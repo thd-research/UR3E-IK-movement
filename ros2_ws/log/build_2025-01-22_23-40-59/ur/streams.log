@@ -1,0 +1,20 @@
+[0.019s] Invoking command in '/ros2_ws/build/ur': CMAKE_PREFIX_PATH=/ros2_ws/install/ur_calibration:/ros2_ws/install/ur_robot_driver:/ros2_ws/install/ur_controllers:/ros2_ws/install/ur_msgs:/ros2_ws/install/ur_moveit_config:/ros2_ws/install/ur_dashboard_msgs:/ros2_ws/install/ur:/ros2_ws/install/ur_bringup:/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/ur -- -j8 -l8
+[0.055s] Invoked command in '/ros2_ws/build/ur' returned '0': CMAKE_PREFIX_PATH=/ros2_ws/install/ur_calibration:/ros2_ws/install/ur_robot_driver:/ros2_ws/install/ur_controllers:/ros2_ws/install/ur_msgs:/ros2_ws/install/ur_moveit_config:/ros2_ws/install/ur_dashboard_msgs:/ros2_ws/install/ur:/ros2_ws/install/ur_bringup:/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/ur -- -j8 -l8
+[0.056s] Invoking command in '/ros2_ws/build/ur': CMAKE_PREFIX_PATH=/ros2_ws/install/ur_calibration:/ros2_ws/install/ur_robot_driver:/ros2_ws/install/ur_controllers:/ros2_ws/install/ur_msgs:/ros2_ws/install/ur_moveit_config:/ros2_ws/install/ur_dashboard_msgs:/ros2_ws/install/ur:/ros2_ws/install/ur_bringup:/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/ur
+[0.063s] -- Install configuration: "Release"
+[0.064s] -- Up-to-date: /ros2_ws/install/ur/share/ament_index/resource_index/package_run_dependencies/ur
+[0.064s] -- Up-to-date: /ros2_ws/install/ur/share/ament_index/resource_index/parent_prefix_path/ur
+[0.064s] -- Up-to-date: /ros2_ws/install/ur/share/ur/environment/ament_prefix_path.sh
+[0.064s] -- Up-to-date: /ros2_ws/install/ur/share/ur/environment/ament_prefix_path.dsv
+[0.064s] -- Up-to-date: /ros2_ws/install/ur/share/ur/environment/path.sh
+[0.064s] -- Up-to-date: /ros2_ws/install/ur/share/ur/environment/path.dsv
+[0.064s] -- Up-to-date: /ros2_ws/install/ur/share/ur/local_setup.bash
+[0.064s] -- Up-to-date: /ros2_ws/install/ur/share/ur/local_setup.sh
+[0.064s] -- Up-to-date: /ros2_ws/install/ur/share/ur/local_setup.zsh
+[0.064s] -- Up-to-date: /ros2_ws/install/ur/share/ur/local_setup.dsv
+[0.064s] -- Installing: /ros2_ws/install/ur/share/ur/package.dsv
+[0.064s] -- Up-to-date: /ros2_ws/install/ur/share/ament_index/resource_index/packages/ur
+[0.064s] -- Up-to-date: /ros2_ws/install/ur/share/ur/cmake/urConfig.cmake
+[0.064s] -- Up-to-date: /ros2_ws/install/ur/share/ur/cmake/urConfig-version.cmake
+[0.064s] -- Up-to-date: /ros2_ws/install/ur/share/ur/package.xml
+[0.066s] Invoked command in '/ros2_ws/build/ur' returned '0': CMAKE_PREFIX_PATH=/ros2_ws/install/ur_calibration:/ros2_ws/install/ur_robot_driver:/ros2_ws/install/ur_controllers:/ros2_ws/install/ur_msgs:/ros2_ws/install/ur_moveit_config:/ros2_ws/install/ur_dashboard_msgs:/ros2_ws/install/ur:/ros2_ws/install/ur_bringup:/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/ur
