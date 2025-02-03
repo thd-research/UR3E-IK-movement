@@ -8,7 +8,7 @@ ENV TZ=Europe/Berlin
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 ENV DEBIAN_FRONTEND=noninteractive
 
-ENV ROS_DISTRO humble
+ENV ROS_DISTRO=humble
 
 # Install utility packages
 RUN apt-get update && \
@@ -63,6 +63,7 @@ RUN echo "source /opt/ros/humble/setup.bash" >> /root/.bashrc
 # Install python3-rosdep if not already installed
 RUN apt-get update && apt-get install -y python3-rosdep
 
+RUN apt update && apt install -y ros-humble-ros2-control ros-humble-ros2controlcli
 
 
 # Install vcstool for managing source code
@@ -94,7 +95,6 @@ RUN rosdep update && \
 
 WORKDIR /ros2_ws
 #RUN colcon build 
-
 
 ## GUI tunnel from docker
 RUN dpkg --add-architecture i386 && \
