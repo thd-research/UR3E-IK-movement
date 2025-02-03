@@ -3,7 +3,7 @@
 ROOT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )" # Path to shared folder
 xhost +si:localuser:root  # Limits access to root user only for security
 
-docker run --gpus all \
+docker run \
     -ti --rm \
     -e "DISPLAY=$DISPLAY" \
     -e "QT_X11_NO_MITSHM=1" \

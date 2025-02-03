@@ -1,0 +1,1 @@
+docker build -t ur3e_docker . 

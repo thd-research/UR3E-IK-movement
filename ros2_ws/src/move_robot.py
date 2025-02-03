@@ -8,6 +8,7 @@ from geometry_msgs.msg import PoseStamped
 from trajectory_msgs.msg import JointTrajectory, JointTrajectoryPoint
 import time
 
+
 class MoveURRobot(Node):
     def __init__(self):
         super().__init__('move_ur_robot_node')
@@ -15,8 +16,16 @@ class MoveURRobot(Node):
         self.ik_client = self.create_client(GetPositionIK, 'compute_ik') 
         self.ik_client.wait_for_service() 
 
-        self.trajectory_publisher = self.create_publisher(JointTrajectory, '/joint_trajectory_controller/joint_trajectory', 10) # creating publisher ffor publishing joint values
-        self.joint_state_subscriber = self.create_subscription(JointState, '/joint_states', self.joint_state_callback, 10)  #subsrciber for joint states
+        self.trajectory_publisher = self.create_publisher(
+            JointTrajectory, 
+            '/joint_trajectory_controller/joint_trajectory', 
+            10
+        ) # creating publisher ffor publishing joint values
+        self.joint_state_subscriber = self.create_subscription(
+            JointState, 
+            '/joint_states', 
+            self.joint_state_callback, 
+            10)  #subsrciber for joint states
 
         self.joint_state = None
 
@@ -25,11 +34,12 @@ class MoveURRobot(Node):
     def joint_state_callback(self, msg): 
         self.joint_state = msg
 
-    def move_to_pose(self, target_pose): 
+    def move_to_pose(self, target_pose, duration_s=10): 
 
         while self.joint_state is None:
             rclpy.spin_once(self)
-            
+        
+        _time_measure = time.time_ns()
         # Request for the compute_ik service
         ik_request = GetPositionIK.Request()
         ik_request.ik_request.group_name = 'ur_manipulator'  
@@ -49,10 +59,10 @@ class MoveURRobot(Node):
             # Publish the trajectory to move the robot
             trajectory_msg = JointTrajectory()
             trajectory_msg.joint_names = response.solution.joint_state.name
-             
+            
             point = JointTrajectoryPoint()
             point.positions = response.solution.joint_state.position
-            point.time_from_start.sec = 5 # Time to reach the target position
+            point.time_from_start.sec = duration_s # Time to reach the target position
             
             trajectory_msg.points.append(point)
             
@@ -61,6 +71,11 @@ class MoveURRobot(Node):
             self.get_logger().info("Trajectory published to move the robot")
         else:
             self.get_logger().warn("Failed to find an inverse kinematics solution")
+
+        print("Take {} ns".format(time.time_ns() - _time_measure))
+        print("trajectory_msg.points len:", len(trajectory_msg.points), trajectory_msg.points)
+        print("response:", response)
+
 
 def main(args=None):
     rclpy.init(args=args)
@@ -71,7 +86,7 @@ def main(args=None):
     target_pose = PoseStamped()
     target_pose.header.frame_id = 'base_link'
     target_pose.pose.position.x = 0.3
-    target_pose.pose.position.y = 0.2
+    target_pose.pose.position.y = 0.3
     target_pose.pose.position.z = 0.3
     target_pose.pose.orientation.w = 0.0
     target_pose.pose.orientation.x = 1.0
@@ -80,8 +95,15 @@ def main(args=None):
  
     node.move_to_pose(target_pose)
 
+    time.sleep(2)
+    target_pose.pose.position.x = 0.0
+    node.move_to_pose(target_pose, duration_s=5)
+    
+    time.sleep(1)
+    target_pose.pose.position.x = 0.3
+    node.move_to_pose(target_pose, duration_s=5)
+
     rclpy.shutdown()
 
 if __name__ == '__main__':
     main()
-
